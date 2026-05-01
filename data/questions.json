@@ -398,5 +398,405 @@
     "type": "ssb_interview",
     "hints": ["Practicality", "National interest", "Broad thinking", "Problem solving"],
     "sampleAnswer": "Firstly, I would focus on digitizing rural education to bridge the urban-rural gap. Secondly, I'd implement stricter environmental laws for industrial waste. Thirdly, I would streamline the legal process for faster delivery of justice. These, I believe, are fundamental to long-term national growth."
+  },
+  {
+    "id": 51,
+    "question": "What is the difference between physical fitness and mental toughness in the context of the military?",
+    "category": "OLQ/Military Interest",
+    "type": "ssb_interview",
+    "hints": ["Stamina vs Resilience", "Endurance vs Willpower", "Interdependence"],
+    "sampleAnswer": "Physical fitness is the body's ability to perform tasks without fatigue, whereas mental toughness is the mind's ability to keep the body going even after it has reached its physical limit. In the military, fitness gets you to the battlefield, but mental toughness wins the battle."
+  },
+  {
+    "id": 52,
+    "question": "How do you handle a situation where your best friend is cheating in an exam?",
+    "category": "Integrity/Social Responsibility",
+    "type": "ssb_interview",
+    "hints": ["Moral courage", "Loyalty vs Honesty", "Corrective action"],
+    "sampleAnswer": "I would stop them immediately during the exam to prevent further trouble. Afterward, I would explain that such shortcuts will fail them in the long run. My loyalty to my friend lies in helping them improve their character, not in supporting their mistakes."
+  },
+  {
+    "id": 53,
+    "question": "If you are posted in a remote area with no mobile network for months, how will you keep yourself motivated?",
+    "category": "Social Adjustment/Adaptability",
+    "type": "ssb_interview",
+    "hints": ["Hobbies", "Bonding with troops", "Professional focus", "Mental discipline"],
+    "sampleAnswer": "I would use that time to bond more deeply with my troops, learn about their backgrounds, and focus on physical training. I also enjoy reading and journaling, which are excellent ways to stay mentally engaged in isolation."
+  },
+  {
+    "id": 54,
+    "question": "Tell me about a time you had to work with someone you strongly disliked.",
+    "category": "Social Effectiveness",
+    "type": "ssb_interview",
+    "hints": ["Professionalism", "Goal orientation", "Conflict management"],
+    "sampleAnswer": "During a college fest, I was paired with a person whose work ethic was very different from mine. I decided to keep our interactions strictly professional, clearly defined our individual targets, and focused on the success of the event rather than our personal differences."
+  },
+  {
+    "id": 55,
+    "question": "What are the three most important qualities of a Junior Commissioned Officer (JCO) as per your understanding?",
+    "category": "Military Knowledge",
+    "type": "ssb_interview",
+    "hints": ["Bridge between Offrs and Jawans", "Experience", "Discipline"],
+    "sampleAnswer": "A JCO is the backbone of a unit. To me, their most important qualities are their vast operational experience, their role as a bridge between the soldiers and officers, and their impeccable sense of discipline which sets the standard for the jawans."
+  },
+  {
+    "id": 56,
+    "question": "If you discover your sibling is taking drugs, how will you react?",
+    "category": "Personal/Responsibility",
+    "type": "ssb_interview",
+    "hints": ["Empathy", "Firmness", "Seeking professional help", "Confidentiality"],
+    "sampleAnswer": "I would first have a calm, non-judgmental conversation to understand the cause. I would then involve my parents and seek professional medical counseling. I would stand by them as a support system throughout the recovery process while ensuring they stay away from the negative influence."
+  },
+  {
+    "id": 57,
+    "question": "What is the significance of the 'Integrated Battle Groups' (IBGs) for the Indian Army?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Cold Start doctrine", "Swift mobilization", "Combined arms approach"],
+    "sampleAnswer": "IBGs are agile, brigade-sized self-sufficient combat formations. They are significant because they allow for faster mobilization and strike capabilities compared to traditional Corps, integrating infantry, armor, and artillery for a more potent localized impact."
+  },
+  {
+    "id": 58,
+    "question": "How do you react when you lose a game or competition after working very hard?",
+    "category": "Emotional Stability",
+    "type": "ssb_interview",
+    "hints": ["Sportsmanship", "Analysis of failure", "Resilience"],
+    "sampleAnswer": "I feel disappointed initially, which is natural. However, I make it a point to congratulate the winner sincerely. Later, I analyze the areas where I fell short and start working on them immediately to ensure a better performance next time."
+  },
+  {
+    "id": 59,
+    "question": "Describe a time you took a risk and it didn't pay off. What did you learn?",
+    "category": "Decision Making",
+    "type": "ssb_interview",
+    "hints": ["Risk assessment", "Accountability", "Learning mindset"],
+    "sampleAnswer": "I once invested all my savings into a small startup venture during college which failed. I learned the importance of diversifying risks and that passion must be backed by a thorough market analysis and a contingency plan."
+  },
+  {
+    "id": 60,
+    "question": "What is your take on the privatization of the Indian defense industry?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Efficiency", "Indigenous technology", "Competition", "Security concerns"],
+    "sampleAnswer": "I believe it is a positive move. It brings in healthy competition, private sector efficiency, and speeds up the 'Make in India' initiative. It reduces our dependency on imports, though the government must retain control over core strategic technologies."
+  },
+  {
+    "id": 61,
+    "question": "Who is your role model in life and why?",
+    "category": "Personal/Values",
+    "type": "ssb_interview",
+    "hints": ["Authenticity", "Specific qualities", "Impact on your life"],
+    "sampleAnswer": "My role model is my grandfather. Despite retiring from a modest job, he remained active, disciplined, and always helped the underprivileged in our village. He taught me that your worth is defined by your contribution to society, not your bank balance."
+  },
+  {
+    "id": 62,
+    "question": "If you are the captain of a team that is losing badly at halftime, what will you say in the locker room?",
+    "category": "Leadership/Influence",
+    "type": "ssb_interview",
+    "hints": ["Motivation", "Strategy shift", "Boosting morale", "Collective responsibility"],
+    "sampleAnswer": "I would tell them to forget the score and focus on the next 15 minutes. I’d point out specific tactical errors we made and remind them of our hard work during practice. I’d emphasize that we lose as a team or win as a team, and we owe it to ourselves to fight till the last whistle."
+  },
+  {
+    "id": 63,
+    "question": "What is the role of the Chief of Defence Staff (CDS)?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Single point advisor", "Synergy", "Theaterization"],
+    "sampleAnswer": "The CDS acts as the permanent Chairman of the Chiefs of Staff Committee and is the principal military advisor to the Defence Minister. The role is crucial for bringing synergy between the three services and overseeing the transition to Theater Commands."
+  },
+  {
+    "id": 64,
+    "question": "How do you define 'Honor'?",
+    "category": "Personal/Values",
+    "type": "ssb_interview",
+    "hints": ["Integrity", "Self-respect", "Consistency in behavior"],
+    "sampleAnswer": "To me, honor is doing the right thing even when no one is watching. It is a commitment to a set of moral principles and maintaining one’s self-respect by being consistent in words and actions."
+  },
+  {
+    "id": 65,
+    "question": "If your parents are against you joining the Army, how will you convince them?",
+    "category": "Influence/Motivation",
+    "type": "ssb_interview",
+    "hints": ["Patience", "Addressing their fears", "Sharing your passion"],
+    "sampleAnswer": "I would listen to their concerns—usually regarding safety—and explain the professional growth and the noble nature of the career. I’d show them that this is where I would be most happy and fulfilled, and eventually, seeing my dedication, they would support me."
+  },
+  {
+    "id": 66,
+    "question": "What are 'Carbon Credits' and why are they important for India?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Environment", "Climate change", "Economic incentives"],
+    "sampleAnswer": "Carbon credits are a tradable permit representing the right to emit one ton of carbon dioxide. For India, they are important to incentivize industries to adopt green technology, helping us meet our Net Zero targets while attracting international climate finance."
+  },
+  {
+    "id": 67,
+    "question": "How do you manage a situation where your subordinate is more experienced than you?",
+    "category": "Social Effectiveness/Leadership",
+    "type": "ssb_interview",
+    "hints": ["Respect", "Learning", "Professional boundaries"],
+    "sampleAnswer": "I would respect their experience and seek their advice on technical matters. However, I would maintain my role as a decision-maker by taking responsibility for the final outcome. Leadership is about utilizing the strengths of your team, not feeling threatened by them."
+  },
+  {
+    "id": 68,
+    "question": "Tell me about a time you showed initiative without being asked.",
+    "category": "OLQ/Initiative",
+    "type": "ssb_interview",
+    "hints": ["Proactive behavior", "Problem identification", "Outcome"],
+    "sampleAnswer": "In my previous internship, I noticed the filing system was causing delays. Without being asked, I created a digital index over the weekend. It improved retrieval time by 40%, and my manager eventually implemented it across the department."
+  },
+  {
+    "id": 69,
+    "question": "What is the importance of 'Cyber Security' in the Armed Forces?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Data protection", "Non-kinetic warfare", "Infrastructure safety"],
+    "sampleAnswer": "Modern warfare is increasingly digital. Cyber security is vital to protect our communication networks, prevent data breaches of strategic plans, and safeguard critical infrastructure like power grids and missile silos from enemy hacking."
+  },
+  {
+    "id": 70,
+    "question": "Do you think women should be allowed in all combat roles? Why?",
+    "category": "Social Awareness/Logic",
+    "type": "ssb_interview",
+    "hints": ["Capability based", "Modern military trends", "Operational requirements"],
+    "sampleAnswer": "Yes, I believe suitability for a role should be based on individual merit and physical/mental standards rather than gender. With modern technology and the changing nature of warfare, women have already proven their mettle in various wings, and their inclusion in combat roles is a natural and progressive step."
+  },
+  {
+    "id": 71,
+    "question": "What is the 'Golden Quadrilateral' and how does it help India?",
+    "category": "General Knowledge",
+    "type": "ssb_interview",
+    "hints": ["Infrastructure", "Connectivity", "Economic growth"],
+    "sampleAnswer": "It is a highway network connecting India’s four major metropolitan cities: Delhi, Mumbai, Chennai, and Kolkata. It helps in the faster movement of goods, reduces transport costs, and boosts the economic development of the regions it passes through."
+  },
+  {
+    "id": 72,
+    "question": "How do you prioritize when you have multiple tasks with the same deadline?",
+    "category": "Organizing Ability",
+    "type": "ssb_interview",
+    "hints": ["Urgency vs Importance", "Delegation", "Time management"],
+    "sampleAnswer": "I use a priority matrix to categorize tasks based on their impact. I tackle the most critical ones first and, if possible, delegate or seek help for the smaller ones. Staying organized with a checklist prevents me from feeling overwhelmed."
+  },
+  {
+    "id": 73,
+    "question": "What do you know about the 'Indus Waters Treaty'?",
+    "category": "General Awareness/Geopolitics",
+    "type": "ssb_interview",
+    "hints": ["India-Pakistan", "Water sharing", "World Bank involvement"],
+    "sampleAnswer": "Signed in 1960 and brokered by the World Bank, it dictates the sharing of the Indus river system between India and Pakistan. It gives India control over the eastern rivers (Ravi, Beas, Sutlej) and Pakistan over the western rivers (Indus, Jhelum, Chenab), with certain usage rights for India."
+  },
+  {
+    "id": 74,
+    "question": "If you are walking with a girl and someone passes a lewd comment, what will you do?",
+    "category": "Social Effectiveness/Courage",
+    "type": "ssb_interview",
+    "hints": ["Composure", "Protection", "Avoid unnecessary escalation"],
+    "sampleAnswer": "My priority is her safety and comfort. I would first ignore it to avoid a scene if we can leave safely. However, if they persist or follow us, I would firmly confront them and, if necessary, take the help of nearby authorities or the police. I won't lose my temper but will ensure the situation is handled."
+  },
+  {
+    "id": 75,
+    "question": "What are your hobbies and how do they contribute to your personality?",
+    "category": "Personal",
+    "type": "ssb_interview",
+    "hints": ["Active hobbies", "Skill building", "Character traits"],
+    "sampleAnswer": "I play football and enjoy long-distance cycling. Football has taught me teamwork and how to handle defeat, while cycling has improved my physical endurance and taught me the value of persistence during long, difficult stretches."
+  },
+  {
+    "id": 76,
+    "question": "How would you improve the education system in India if you had the power?",
+    "category": "Social Awareness",
+    "type": "ssb_interview",
+    "hints": ["Vocational training", "Critical thinking", "Rural access"],
+    "sampleAnswer": "I would shift the focus from rote learning to practical application and critical thinking. I’d also integrate vocational training early in school so students gain employable skills, and I would increase the use of technology to provide quality education in remote areas."
+  },
+  {
+    "id": 77,
+    "question": "What is 'Artificial Intelligence' and how can it be used in the Army?",
+    "category": "General Awareness/Tech",
+    "type": "ssb_interview",
+    "hints": ["Data analysis", "Unmanned systems", "Logistics"],
+    "sampleAnswer": "AI is the simulation of human intelligence by machines. In the Army, it can be used for predictive maintenance of equipment, analyzing satellite imagery for threat detection, and powering autonomous drones for surveillance in high-risk zones."
+  },
+  {
+    "id": 78,
+    "question": "What do you do in your free time when you are not studying or working?",
+    "category": "Personal/Lifestyle",
+    "type": "ssb_interview",
+    "hints": ["Productivity", "Relaxation", "Self-improvement"],
+    "sampleAnswer": "I enjoy gardening at home as it is therapeutic and teaches patience. I also volunteer at a local animal shelter on Sundays, which helps me stay connected to my community and practice empathy."
+  },
+  {
+    "id": 79,
+    "question": "What is the difference between 'Line of Control' (LoC) and 'Line of Actual Control' (LAC)?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Pakistan vs China", "Nature of boundary", "Legal status"],
+    "sampleAnswer": "The LoC is the de facto border between India and Pakistan in J&K, emerging from the 1971 war and the Shimla Agreement. The LAC is the disputed border between India and China, which is not clearly demarcated on the ground, leading to frequent face-offs."
+  },
+  {
+    "id": 80,
+    "question": "Tell me about a time you convinced your group to change their mind.",
+    "category": "Influence/OLQ",
+    "type": "ssb_interview",
+    "hints": ["Logical reasoning", "Communication", "Teamwork"],
+    "sampleAnswer": "During a college project, my team wanted to use a complex software that most didn't know. I convinced them to use a simpler tool by demonstrating that it would save us time and reduce the margin for error, eventually leading to an 'A' grade."
+  },
+  {
+    "id": 81,
+    "question": "If you are given a choice between a high-paying corporate job and the Armed Forces, why choose the latter?",
+    "category": "Motivation",
+    "type": "ssb_interview",
+    "hints": ["Lifestyle", "Purpose", "Service"],
+    "sampleAnswer": "While a corporate job offers financial growth, the Armed Forces offer a 'way of life' that involves adventure, physical challenge, and the honor of serving the nation. For me, the sense of purpose and the pride of the uniform are more valuable than a high salary."
+  },
+  {
+    "id": 82,
+    "question": "What is 'Global Warming' and what can an individual do to stop it?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Greenhouse gases", "Sustainable habits", "Awareness"],
+    "sampleAnswer": "Global warming is the long-term heating of Earth's surface due to greenhouse gas emissions. As an individual, I can reduce my carbon footprint by using public transport, minimizing plastic use, and planting trees in my locality."
+  },
+  {
+    "id": 83,
+    "question": "How do you handle a team member who is not contributing and is slowing everyone down?",
+    "category": "Leadership",
+    "type": "ssb_interview",
+    "hints": ["Counseling", "Task reassignment", "Accountability"],
+    "sampleAnswer": "I would first talk to them privately to see if they are facing any personal or technical difficulties. I’d try to motivate them by explaining their importance to the project. If that fails, I would assign them smaller, more structured tasks with strict deadlines to ensure accountability."
+  },
+  {
+    "id": 84,
+    "question": "What is 'G20' and what was the significance of India's presidency?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Global economy", "Voice of Global South", "Diplomacy"],
+    "sampleAnswer": "G20 is a forum of the world's largest economies. India's presidency was significant as it highlighted the 'Voice of the Global South,' pushed for digital public infrastructure, and successfully brought the African Union into the group as a permanent member."
+  },
+  {
+    "id": 85,
+    "question": "If you are caught in a sudden riot while traveling, what will be your course of action?",
+    "category": "Decision Making/Stability",
+    "type": "ssb_interview",
+    "hints": ["Safety", "Observation", "Helping others"],
+    "sampleAnswer": "I would first find a safe indoor location away from glass windows. I would keep track of official news and avoid spreading rumors. If I see someone injured nearby, I would provide basic first aid until it is safe to move to a police station or hospital."
+  },
+  {
+    "id": 86,
+    "question": "What do you know about 'Project 75' of the Indian Navy?",
+    "category": "Military Knowledge",
+    "type": "ssb_interview",
+    "hints": ["Submarines", "Scorpene class", "Indigenization"],
+    "sampleAnswer": "Project 75 is a program to build six Kalvari-class (Scorpene) diesel-electric attack submarines in India with French collaboration. It is a major step toward enhancing our underwater combat capabilities and achieving self-reliance in naval shipbuilding."
+  },
+  {
+    "id": 87,
+    "question": "What are the qualities of a good follower?",
+    "category": "Social Adjustment",
+    "type": "ssb_interview",
+    "hints": ["Reliability", "Feedback", "Dedication"],
+    "sampleAnswer": "A good follower is reliable, disciplined, and proactive. They don't just follow orders blindly but provide honest feedback when necessary and work dedicatedly to achieve the leader's vision."
+  },
+  {
+    "id": 88,
+    "question": "How do you maintain a balance between your professional/academic life and personal life?",
+    "category": "Organizing Ability",
+    "type": "ssb_interview",
+    "hints": ["Time blocking", "Setting boundaries", "Quality over quantity"],
+    "sampleAnswer": "I use time-blocking to dedicate specific hours to study and exercise. When I am with my family, I put away my gadgets to ensure I am present. This clear separation helps me remain productive without burning out."
+  },
+  {
+    "id": 89,
+    "question": "What is 'Self-Reliance' (Atmanirbhar Bharat) in the context of defense?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Reduced imports", "R&D", "Domestic manufacturing"],
+    "sampleAnswer": "It means designing, developing, and manufacturing our own weapon systems like the LCA Tejas or Akash missiles. It reduces our vulnerability to international sanctions and supply chain disruptions during a war."
+  },
+  {
+    "id": 90,
+    "question": "If you fail this SSB, what will you do differently in your next attempt?",
+    "category": "Self-Awareness",
+    "type": "ssb_interview",
+    "hints": ["Introspection", "Specific improvement", "Resilience"],
+    "sampleAnswer": "I will seek feedback from my peers and introspect on my performance. I will identify if my weakness was in communication, psychology, or physical tasks, and I will work on those specific areas while maintaining my current strengths."
+  },
+  {
+    "id": 91,
+    "question": "What is your opinion on 'One Nation, One Election'?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Cost saving", "Governance", "Federal challenges"],
+    "sampleAnswer": "It is a concept to hold Lok Sabha and State Assembly elections simultaneously. The pros are reduced election expenditure and continuous governance without the model code of conduct. However, it faces challenges regarding the federal structure and constitutional amendments."
+  },
+  {
+    "id": 92,
+    "question": "Describe a time you were under immense pressure and how you stayed calm.",
+    "category": "Emotional Stability",
+    "type": "ssb_interview",
+    "hints": ["Deep breathing", "Focus on basics", "Step-by-step approach"],
+    "sampleAnswer": "During my final year presentation, the projector failed. I stayed calm, apologized for the glitch, and continued the presentation using my laptop screen and verbal explanation. My composure helped the audience stay engaged despite the technical failure."
+  },
+  {
+    "id": 93,
+    "question": "What is the importance of 'Mental Health' for soldiers in high-altitude postings?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Isolation", "Extreme conditions", "Comradeship"],
+    "sampleAnswer": "High altitude causes isolation and physical stress. Good mental health is crucial for maintaining morale and alertness. The Army handles this through regular counseling, recreation, and fostering strong comradeship among soldiers."
+  },
+  {
+    "id": 94,
+    "question": "How do you handle failure?",
+    "category": "Personal/Resilience",
+    "type": "ssb_interview",
+    "hints": ["Acceptance", "Analysis", "Moving forward"],
+    "sampleAnswer": "I accept failure as a part of growth. I take a day to process it, then I analyze the 'why' behind the failure. I believe that a failure is only a permanent defeat if you stop trying; otherwise, it’s just a lesson."
+  },
+  {
+    "id": 95,
+    "question": "What is the role of 'Special Forces' in modern warfare?",
+    "category": "Military Knowledge",
+    "type": "ssb_interview",
+    "hints": ["Unconventional warfare", "Surgical strikes", "Intelligence"],
+    "sampleAnswer": "Special Forces are trained for unconventional warfare, including surgical strikes, hostage rescue, and deep penetration behind enemy lines. They act as a force multiplier by achieving strategic objectives with small, highly skilled teams."
+  },
+  {
+    "id": 96,
+    "question": "If you witness someone being bullied in your college/workplace, what will you do?",
+    "category": "Social Effectiveness/Courage",
+    "type": "ssb_interview",
+    "hints": ["Intervention", "Support", "Reporting"],
+    "sampleAnswer": "I would immediately intervene and ask the bully to stop. I would then support the victim and encourage them to report the incident to the authorities. Silence in the face of bullying is as bad as the act itself."
+  },
+  {
+    "id": 97,
+    "question": "What is the importance of 'Physical Training' (PT) in the morning for an officer?",
+    "category": "Lifestyle/Military",
+    "type": "ssb_interview",
+    "hints": ["Leading from front", "Fitness", "Discipline"],
+    "sampleAnswer": "Morning PT ensures that an officer is physically ready for the rigors of service. More importantly, it allows the officer to lead from the front, demonstrating to the men that their leader shares the same hardships and standards."
+  },
+  {
+    "id": 98,
+    "question": "How do you deal with people who have a completely different political ideology than yours?",
+    "category": "Social Adjustment",
+    "type": "ssb_interview",
+    "hints": ["Respect", "Tolerance", "Constructive dialogue"],
+    "sampleAnswer": "I believe in 'agree to disagree.' I listen to their perspective to understand their reasoning. As long as the discussion remains respectful and doesn't hinder our work, I have no issues working with anyone, regardless of their political beliefs."
+  },
+  {
+    "id": 99,
+    "question": "What is 'Space Warfare' and why is India developing ASAT capabilities?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Satellites", "Deterrence", "Mission Shakti"],
+    "sampleAnswer": "Space warfare involves combat in outer space, often targeting satellites. India developed Anti-Satellite (ASAT) capabilities through 'Mission Shakti' to ensure deterrence, protecting our own communication and navigation satellites from potential threats."
+  },
+  {
+    "id": 100,
+    "question": "If you are selected today, what is the one thing you will miss most about your civilian life?",
+    "category": "Personal/Honesty",
+    "type": "ssb_interview",
+    "hints": ["Authenticity", "Family", "Specific comfort"],
+    "sampleAnswer": "I will miss the spontaneity of spending long evenings with my family and the comfort of home-cooked meals every day. However, I am eager to trade that comfort for the discipline and the larger 'family' that the Armed Forces provide."
   }
   ]
