@@ -3,7 +3,7 @@
 // ============================================================
 
 const AdminManager = (() => {
-  const PASSCODE = 'ssb2024'; // Change this
+  const PASSCODE = 'imrankhan@123#'; // Change this
   const KEY_CUSTOM_NEWS = 'ssb_admin_news';
   const KEY_CUSTOM_VOCAB = 'ssb_admin_vocab';
   const KEY_AUTH = 'ssb_admin_auth';
