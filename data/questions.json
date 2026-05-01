@@ -286,5 +286,117 @@
     "type": "ssb_interview",
     "hints": ["Moral courage", "Loyalty to the organization", "Tact", "Corrective action"],
     "sampleAnswer": "Integrity is non-negotiable. If it's a minor oversight, I would find a polite and private way to bring it to their notice, assuming it was unintentional. If it's a deliberate breach of code, I would follow the official reporting procedure, as the organization's honor comes above any individual."
+  },
+  {
+    "id": 37,
+    "question": "If you are leading a patrol and one of your men is critically injured, but the mission objective is time-sensitive, what will be your priority?",
+    "category": "Decision Making/OLQ",
+    "type": "ssb_interview",
+    "hints": ["Value of human life", "Mission accomplishment", "Resource management", "Composure"],
+    "sampleAnswer": "My priority will always be 'Mission accomplishment with minimum casualties.' I would immediately provide first aid to the soldier and request an evacuation. If the mission is critical to national security, I would split my team—leaving a few for the casualty's protection while I lead the rest to complete the objective."
+  },
+  {
+    "id": 38,
+    "question": "What is the most difficult decision you have ever made in your life?",
+    "category": "Personal/Judgment",
+    "type": "ssb_interview",
+    "hints": ["Conflict of interest", "Logical reasoning", "Emotional maturity", "Consequences"],
+    "sampleAnswer": "The most difficult decision was choosing to leave a stable job offer during campus placements to focus entirely on my SSB preparation. It was a risk because of my family's expectations, but I decided that my passion for the uniform outweighed the comfort of a corporate desk."
+  },
+  {
+    "id": 39,
+    "question": "How do you keep yourself updated with the changing nature of modern warfare?",
+    "category": "General Awareness/Interest",
+    "type": "ssb_interview",
+    "hints": ["Cyber warfare", "Drones/AI", "Space command", "Reading habits"],
+    "sampleAnswer": "I follow defense journals and think-tank podcasts. I am particularly interested in how Artificial Intelligence and swarm drone technology are changing the battlefield. Understanding these helps me appreciate why the Indian Armed Forces are currently undergoing theaterization and modernization."
+  },
+  {
+    "id": 40,
+    "question": "Tell me about a social issue in your city that bothers you and what you have done about it.",
+    "category": "Social Effectiveness",
+    "type": "ssb_interview",
+    "hints": ["Social awareness", "Initiative", "Community service", "Practical solutions"],
+    "sampleAnswer": "The lack of waste management in my neighborhood was a major concern. I organized a small group of local youth to conduct a 'Cleanliness Sunday' where we segregated waste and spoke to shopkeepers about avoiding single-use plastics. It wasn't a total fix, but it started a conversation in our community."
+  },
+  {
+    "id": 41,
+    "question": "If I give you a task to organize a blood donation camp in your college, how will you proceed?",
+    "category": "Organizing Ability",
+    "type": "ssb_interview",
+    "hints": ["Planning", "Coordination", "Execution", "Crisis management"],
+    "sampleAnswer": "I would start by taking permission from the Dean and tie-up with a local hospital. I'd form three teams: Marketing (for awareness), Logistics (for beds/refreshments), and Registration. I would ensure we have a standby medical team and focus on maximizing donor turnout through social media."
+  },
+  {
+    "id": 42,
+    "question": "What kind of people do you find difficult to work with?",
+    "category": "Social Adjustment",
+    "type": "ssb_interview",
+    "hints": ["Tolerance", "Adaptability", "Conflict resolution", "Professionalism"],
+    "sampleAnswer": "I find it challenging to work with people who are indifferent to their responsibilities or lack a sense of teamwork. However, I try to handle this by clearly defining roles and communicating how their contribution is vital to our collective success."
+  },
+  {
+    "id": 43,
+    "question": "Explain the significance of the 'Theater Commands' currently being implemented in India.",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Jointness", "Resource optimization", "Single point of command", "Modernization"],
+    "sampleAnswer": "Theater Commands aim to integrate the Army, Navy, and Air Force under a single commander for specific geographical regions. This ensures 'Jointness' in operations, avoids duplication of resources, and allows for a swift, unified response during war, making our military more lethal and efficient."
+  },
+  {
+    "id": 44,
+    "question": "If you had to change one thing about your personality, what would it be?",
+    "category": "Self-Awareness",
+    "type": "ssb_interview",
+    "hints": ["Constructive self-criticism", "Growth mindset", "Realism", "Humility"],
+    "sampleAnswer": "I would like to improve my patience when things don't go according to plan. I tend to get restless if progress is slow. I am working on this by practicing mindfulness and understanding that some results require consistent effort over time rather than immediate speed."
+  },
+  {
+    "id": 45,
+    "question": "What is your father’s salary and how much does he spend on your education?",
+    "category": "Personal/Responsibility",
+    "type": "ssb_interview",
+    "hints": ["Awareness of family finances", "Gratitude", "Value of money", "Groundedness"],
+    "sampleAnswer": "My father earns approximately 60,000 rupees a month. He spends about 15% of it on my college fees and books. I am very conscious of his hard work, which is why I ensure I perform well academically and keep my personal expenses to a minimum."
+  },
+  {
+    "id": 46,
+    "question": "How do you handle a situation where you are unfairly blamed for a mistake by a superior?",
+    "category": "Emotional Stability",
+    "type": "ssb_interview",
+    "hints": ["Calmness", "Professional communication", "Resilience", "Discipline"],
+    "sampleAnswer": "I would remain calm and not argue in the heat of the moment. Once the situation settles, I would request a private meeting to present the facts politely. My goal is to clear the misunderstanding without undermining their authority or showing frustration."
+  },
+  {
+    "id": 47,
+    "question": "What is the importance of 'Soft Power' in India's foreign policy?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Yoga/Bollywood/Diaspora", "Global image", "Diplomacy", "Cultural influence"],
+    "sampleAnswer": "Soft power, including Yoga, our diaspora, and democratic values, allows India to build global influence without military coercion. It helps us gain international support at forums like the UN and makes India a preferred partner for trade and strategic alliances."
+  },
+  {
+    "id": 48,
+    "question": "If you are selected, what will be your first contribution to the unit you join?",
+    "category": "Motivation/OLQ",
+    "type": "ssb_interview",
+    "hints": ["Professionalism", "Bonding with men", "Learning attitude", "Dedication"],
+    "sampleAnswer": "My first contribution would be to master my professional skills and the technicalities of my equipment so that my men can trust my competence. Simultaneously, I would work on building a strong rapport with my subordinates to understand their needs and earn their loyalty."
+  },
+  {
+    "id": 49,
+    "question": "How do you deal with stress during exam periods or high-pressure situations?",
+    "category": "Personal/Resilience",
+    "type": "ssb_interview",
+    "hints": ["Planning", "Physical activity", "Focusing on task", "Mental health"],
+    "sampleAnswer": "I deal with stress by breaking down the huge task into smaller, manageable goals. I also ensure I don't skip my morning run, as physical exercise helps clear my mind. Focusing on 'doing' rather than 'worrying' keeps my anxiety in check."
+  },
+  {
+    "id": 50,
+    "question": "If you were the Prime Minister for one day, what three changes would you implement?",
+    "category": "Vision/Social Awareness",
+    "type": "ssb_interview",
+    "hints": ["Practicality", "National interest", "Broad thinking", "Problem solving"],
+    "sampleAnswer": "Firstly, I would focus on digitizing rural education to bridge the urban-rural gap. Secondly, I'd implement stricter environmental laws for industrial waste. Thirdly, I would streamline the legal process for faster delivery of justice. These, I believe, are fundamental to long-term national growth."
   }
-    ]
+  ]
