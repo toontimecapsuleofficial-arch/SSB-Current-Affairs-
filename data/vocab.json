@@ -222,7 +222,6 @@
   {
     "id": 21,
     "word": "Alacrity",
-    "category": "Behavior",
     "englishMeaning": "Brisk and cheerful readiness.",
     "hindiMeaning": "तत्परता (Tatparta)",
     "synonyms": ["Eagerness", "Willingness", "Promptness"],
@@ -234,7 +233,6 @@
   {
     "id": 22,
     "word": "Benevolent",
-    "category": "Personality",
     "englishMeaning": "Well-meaning and kindly.",
     "hindiMeaning": "परोपकारी (Paropkari)",
     "synonyms": ["Kind-hearted", "Benign", "Altruistic"],
@@ -246,7 +244,6 @@
   {
     "id": 23,
     "word": "Capricious",
-    "category": "Behavior",
     "englishMeaning": "Given to sudden and unaccountable changes of mood or behavior.",
     "hindiMeaning": "मनमौजी (Manmauji)",
     "synonyms": ["Fickle", "Volatile", "Whimsical"],
@@ -258,7 +255,6 @@
   {
     "id": 24,
     "word": "Deference",
-    "category": "Social/Respect",
     "englishMeaning": "Humble submission and respect.",
     "hindiMeaning": "सम्मान (Samman)",
     "synonyms": ["Reverence", "Compliance", "Obeisance"],
@@ -270,7 +266,6 @@
   {
     "id": 25,
     "word": "Exacerbate",
-    "category": "Situational",
     "englishMeaning": "Make a problem, bad situation, or negative feeling worse.",
     "hindiMeaning": "बिगाड़ देना (Bigad dena)",
     "synonyms": ["Aggravate", "Worsen", "Inflame"],
@@ -282,7 +277,6 @@
   {
     "id": 26,
     "word": "Fastidious",
-    "category": "Personality",
     "englishMeaning": "Very attentive to and concerned about accuracy and detail.",
     "hindiMeaning": "तुनुकमिज़ाज (Tunukmizaj)",
     "synonyms": ["Meticulous", "Scrupulous", "Punctilious"],
@@ -294,7 +288,6 @@
   {
     "id": 27,
     "word": "Gregarious",
-    "category": "Personality",
     "englishMeaning": "Fond of company; sociable.",
     "hindiMeaning": "मिलनसार (Milansar)",
     "synonyms": ["Social", "Extroverted", "Companionable"],
@@ -306,7 +299,6 @@
   {
     "id": 28,
     "word": "Haughty",
-    "category": "Personality",
     "englishMeaning": "Arrogantly superior and disdainful.",
     "hindiMeaning": "अभिमानी (Abhimani)",
     "synonyms": ["Arrogant", "Conceited", "Snobbish"],
@@ -318,7 +310,6 @@
   {
     "id": 29,
     "word": "Inevitable",
-    "category": "Events",
     "englishMeaning": "Certain to happen; unavoidable.",
     "hindiMeaning": "अपरिहार्य (Apariharya)",
     "synonyms": ["Unavoidable", "Inescapable", "Sure"],
@@ -330,7 +321,6 @@
   {
     "id": 30,
     "word": "Judicious",
-    "category": "Decision Making",
     "englishMeaning": "Having, showing, or done with good judgment or sense.",
     "hindiMeaning": "विवेकपूर्ण (Vivekpurn)",
     "synonyms": ["Prudent", "Wise", "Sensible"],
@@ -342,7 +332,6 @@
   {
     "id": 31,
     "word": "Kindle",
-    "category": "Action",
     "englishMeaning": "Light or set on fire; arouse or inspire (an emotion).",
     "hindiMeaning": "प्रज्वलित करना (Prajwalit karna)",
     "synonyms": ["Ignite", "Arouse", "Stimulate"],
@@ -354,7 +343,6 @@
   {
     "id": 32,
     "word": "Loquacious",
-    "category": "Communication",
     "englishMeaning": "Tending to talk a great deal; talkative.",
     "hindiMeaning": "बातूनी (Baatuni)",
     "synonyms": ["Garrulous", "Voluble", "Chatty"],
@@ -366,7 +354,6 @@
   {
     "id": 33,
     "word": "Mitigate",
-    "category": "Situational",
     "englishMeaning": "Make less severe, serious, or painful.",
     "hindiMeaning": "कम करना (Kam karna)",
     "synonyms": ["Alleviate", "Assuage", "Palliate"],
@@ -378,7 +365,6 @@
   {
     "id": 34,
     "word": "Nefarious",
-    "category": "Personality/Behavior",
     "englishMeaning": "Wicked or criminal (typically of an action or activity).",
     "hindiMeaning": "कुटिल (Kutil)",
     "synonyms": ["Villainous", "Heinous", "Sinister"],
@@ -390,7 +376,6 @@
   {
     "id": 35,
     "word": "Onerous",
-    "category": "Tasks/Work",
     "englishMeaning": "Involving an amount of effort and difficulty that is oppressively burdensome.",
     "hindiMeaning": "कष्टदायक (Kashtdayak)",
     "synonyms": ["Burdensome", "Arduous", "Strenuous"],
@@ -402,7 +387,6 @@
   {
     "id": 36,
     "word": "Pensive",
-    "category": "State of Mind",
     "englishMeaning": "Engaged in, involving, or reflecting deep or serious thought.",
     "hindiMeaning": "विचारमग्न (Vicharmagn)",
     "synonyms": ["Contemplative", "Thoughtful", "Meditative"],
@@ -414,7 +398,6 @@
   {
     "id": 37,
     "word": "Quell",
-    "category": "Conflict/Action",
     "englishMeaning": "Put an end to (a rebellion or other disorder), typically by the use of force.",
     "hindiMeaning": "दबाना (Dabana)",
     "synonyms": ["Suppress", "Extinguish", "Subdue"],
@@ -426,7 +409,6 @@
   {
     "id": 38,
     "word": "Robust",
-    "category": "State of Being",
     "englishMeaning": "Strong and healthy; vigorous.",
     "hindiMeaning": "मजबूत (Mazboot)",
     "synonyms": ["Sturdy", "Tough", "Resilient"],
@@ -438,7 +420,6 @@
   {
     "id": 39,
     "word": "Scrupulous",
-    "category": "Personality/Ethics",
     "englishMeaning": "Diligent, thorough, and extremely attentive to details; very concerned to avoid doing wrong.",
     "hindiMeaning": "अति सावधान (Ati Savdhan)",
     "synonyms": ["Meticulous", "Ethical", "Honest"],
@@ -450,7 +431,6 @@
   {
     "id": 40,
     "word": "Transient",
-    "category": "Time",
     "englishMeaning": "Lasting only for a short time; impermanent.",
     "hindiMeaning": "क्षणिक (Kshanik)",
     "synonyms": ["Ephemeral", "Fleeting", "Temporary"],
@@ -462,7 +442,6 @@
   {
     "id": 41,
     "word": "Urbane",
-    "category": "Personality",
     "englishMeaning": "Courteous, confident, and refined in manner.",
     "hindiMeaning": "शिष्ट (Shisht)",
     "synonyms": ["Suave", "Sophisticated", "Polished"],
@@ -474,7 +453,6 @@
   {
     "id": 42,
     "word": "Vigilant",
-    "category": "Military/Security",
     "englishMeaning": "Keeping careful watch for possible danger or difficulties.",
     "hindiMeaning": "सतर्क (Satark)",
     "synonyms": ["Watchful", "Alert", "Wary"],
@@ -486,7 +464,6 @@
   {
     "id": 43,
     "word": "Waver",
-    "category": "Action/Decision",
     "englishMeaning": "Become unsteady or unreliable; be undecided between two opinions or courses of action.",
     "hindiMeaning": "डगमगाना (Dagmagana)",
     "synonyms": ["Vacillate", "Hesitate", "Falter"],
@@ -498,7 +475,6 @@
   {
     "id": 44,
     "word": "Zenith",
-    "category": "Measurement/Success",
     "englishMeaning": "The time at which something is most powerful or successful.",
     "hindiMeaning": "शिखर (Shikhar)",
     "synonyms": ["Peak", "Acme", "Apex"],
@@ -510,7 +486,6 @@
   {
     "id": 45,
     "word": "Abstentious",
-    "category": "Behavior/Habits",
     "englishMeaning": "Self-restraining; not overindulging in food or drink.",
     "hindiMeaning": "संयमी (Sanyami)",
     "synonyms": ["Abstinent", "Temperate", "Ascetic"],
@@ -522,7 +497,6 @@
   {
     "id": 46,
     "word": "Candid",
-    "category": "Communication",
     "englishMeaning": "Truthful and straightforward; frank.",
     "hindiMeaning": "स्पष्टवादी (Spashtwadi)",
     "synonyms": ["Frank", "Direct", "Blunt"],
@@ -534,7 +508,6 @@
   {
     "id": 47,
     "word": "Diligent",
-    "category": "Personality",
     "englishMeaning": "Having or showing care and conscientiousness in one's work or duties.",
     "hindiMeaning": "मेहनती (Mehnati)",
     "synonyms": ["Industrious", "Assiduous", "Hard-working"],
@@ -546,7 +519,6 @@
   {
     "id": 48,
     "word": "Enigma",
-    "category": "Nature of Things",
     "englishMeaning": "A person or thing that is mysterious, puzzling, or difficult to understand.",
     "hindiMeaning": "पहेली (Paheli)",
     "synonyms": ["Mystery", "Puzzle", "Conundrum"],
@@ -558,7 +530,6 @@
   {
     "id": 49,
     "word": "Frugal",
-    "category": "Financial/Habits",
     "englishMeaning": "Sparing or economical with regard to money or food.",
     "hindiMeaning": "मितव्ययी (Mitvyayi)",
     "synonyms": ["Thrifty", "Parsimonious", "Economical"],
@@ -570,7 +541,6 @@
   {
     "id": 50,
     "word": "Gullible",
-    "category": "Personality",
     "englishMeaning": "Easily persuaded to believe something; credulous.",
     "hindiMeaning": "भोला (Bhola)",
     "synonyms": ["Naive", "Innocent", "Trusting"],
@@ -599,8 +569,7 @@
     "hindiMeaning": "त्रुटिहीन (Trutihin)",
     "synonyms": ["Flawless", "Exquisite", "Spotless"],
     "antonyms": ["Imperfect", "Flawed", "Corrupt"],
-    "mnemonics": "Im-peccable: 'Pec' sounds like 'Puncture' (flaw). Im-peccable = No punctures/flaws.",
-    "previousYearUsage": "AFCAT 2022: 'Her English was impeccable.'",
+    "mnemonics": "Im-peccable: 'Pec' sounds like 'Puncture' (flaw). Im-peccable iousYearUsage": "AFCAT 2022: 'Her English was impeccable.'",
     "difficulty": "Medium"
   },
   {
