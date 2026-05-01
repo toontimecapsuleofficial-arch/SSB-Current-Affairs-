@@ -552,7 +552,6 @@
   {
     "id": 51,
     "word": "Harangue",
-    "category": "Communication",
     "englishMeaning": "A lengthy and aggressive speech.",
     "hindiMeaning": "उग्र भाषण (Ugra bhashan)",
     "synonyms": ["Tirade", "Diatribe", "Lecturing"],
@@ -564,18 +563,17 @@
   {
     "id": 52,
     "word": "Impeccable",
-    "category": "Quality",
     "englishMeaning": "In accordance with the highest standards; faultless.",
     "hindiMeaning": "त्रुटिहीन (Trutihin)",
     "synonyms": ["Flawless", "Exquisite", "Spotless"],
     "antonyms": ["Imperfect", "Flawed", "Corrupt"],
-    "mnemonics": "Im-peccable: 'Pec' sounds like 'Puncture' (flaw). Im-peccable iousYearUsage": "AFCAT 2022: 'Her English was impeccable.'",
+    "mnemonics": "Im-peccable: 'Pec' sounds like 'Puncture' (flaw). Im-peccable = No punctures/flaws.",
+    "previousYearUsage": "AFCAT 2022: 'Her English was impeccable.'",
     "difficulty": "Medium"
   },
   {
     "id": 53,
     "word": "Juvenile",
-    "category": "Age/Nature",
     "englishMeaning": "For or relating to young people; childish.",
     "hindiMeaning": "किशोर (Kishor)",
     "synonyms": ["Adolescent", "Immature", "Puerile"],
@@ -587,7 +585,6 @@
   {
     "id": 54,
     "word": "Knack",
-    "category": "Skill",
     "englishMeaning": "An acquired or natural skill at performing a task.",
     "hindiMeaning": "कौशल (Kaushal)",
     "synonyms": ["Aptitude", "Dexterity", "Talent"],
@@ -599,7 +596,6 @@
   {
     "id": 55,
     "word": "Languid",
-    "category": "State of Being",
     "englishMeaning": "Displaying or having a disinclination for physical exertion or effort.",
     "hindiMeaning": "सुस्त (Sust)",
     "synonyms": ["Lethargic", "Listless", "Lazy"],
@@ -611,7 +607,6 @@
   {
     "id": 56,
     "word": "Meticulous",
-    "category": "Personality",
     "englishMeaning": "Showing great attention to detail; very careful and precise.",
     "hindiMeaning": "अति सावधान (Ati Savdhan)",
     "synonyms": ["Scrupulous", "Fastidious", "Conscientious"],
@@ -623,7 +618,6 @@
   {
     "id": 57,
     "word": "Nadir",
-    "category": "Measurement",
     "englishMeaning": "The lowest point in the fortunes of a person or organization.",
     "hindiMeaning": "अधोबिंदु (Adhobindu)",
     "synonyms": ["Lowest point", "Bottom", "Rock-bottom"],
@@ -635,7 +629,6 @@
   {
     "id": 58,
     "word": "Opaque",
-    "category": "Nature of Things",
     "englishMeaning": "Not able to be seen through; not transparent.",
     "hindiMeaning": "अस्पष्ट (Aspasht)",
     "synonyms": ["Cloudy", "Obscure", "Blurred"],
@@ -647,7 +640,6 @@
   {
     "id": 59,
     "word": "Pugnacious",
-    "category": "Personality",
     "englishMeaning": "Eager or quick to argue, quarrel, or fight.",
     "hindiMeaning": "झगड़ालू (Jhagralu)",
     "synonyms": ["Belligerent", "Combative", "Quarrelsome"],
@@ -659,7 +651,6 @@
   {
     "id": 60,
     "word": "Quixotic",
-    "category": "Nature of Ideas",
     "englishMeaning": "Exceedingly idealistic; unrealistic and impractical.",
     "hindiMeaning": "विलक्षण (Vilakshan)",
     "synonyms": ["Visionary", "Utopian", "Idealistic"],
@@ -671,7 +662,6 @@
   {
     "id": 61,
     "word": "Reiterate",
-    "category": "Communication",
     "englishMeaning": "Say something again or a number of times, typically for emphasis or clarity.",
     "hindiMeaning": "दोहराना (Dohrana)",
     "synonyms": ["Repeat", "Restate", "Recap"],
@@ -683,7 +673,6 @@
   {
     "id": 62,
     "word": "Sycophant",
-    "category": "Personality",
     "englishMeaning": "A person who acts obsequiously toward someone important in order to gain advantage.",
     "hindiMeaning": "चापलूस (Chaploos)",
     "synonyms": ["Toady", "Flatterer", "Yes-man"],
@@ -695,7 +684,6 @@
   {
     "id": 63,
     "word": "Tenacious",
-    "category": "Personality",
     "englishMeaning": "Tending to keep a firm hold of something; clinging or adhering closely.",
     "hindiMeaning": "दृढ़ (Dridh)",
     "synonyms": ["Persistent", "Resolute", "Dogged"],
@@ -707,7 +695,6 @@
   {
     "id": 64,
     "word": "Upbraid",
-    "category": "Communication",
     "englishMeaning": "Find fault with (someone); scold.",
     "hindiMeaning": "फटकारना (Phatkarna)",
     "synonyms": ["Reprimand", "Chastise", "Admonish"],
@@ -719,7 +706,6 @@
   {
     "id": 65,
     "word": "Vacillate",
-    "category": "Action/Decision",
     "englishMeaning": "Alternate or waver between different opinions or actions; be indecisive.",
     "hindiMeaning": "दुविधा में होना (Duvidha mein hona)",
     "synonyms": ["Dither", "Waver", "Hesitate"],
@@ -731,7 +717,6 @@
   {
     "id": 66,
     "word": "Wily",
-    "category": "Personality",
     "englishMeaning": "Skilled at gaining an advantage, especially deceitfully.",
     "hindiMeaning": "चालाक (Chalak)",
     "synonyms": ["Cunning", "Sly", "Artful"],
@@ -743,7 +728,6 @@
   {
     "id": 67,
     "word": "Xenophobia",
-    "category": "Social",
     "englishMeaning": "Dislike of or prejudice against people from other countries.",
     "hindiMeaning": "विदेशी लोगों से डर (Videshi logon se darr)",
     "synonyms": ["Racism", "Ethnocentrism", "Prejudice"],
@@ -755,7 +739,6 @@
   {
     "id": 68,
     "word": "Yield",
-    "category": "Action",
     "englishMeaning": "Produce or provide; give way to arguments, demands, or pressure.",
     "hindiMeaning": "पैदावार / हार मान लेना (Paidawar / Haar maan lena)",
     "synonyms": ["Surrender", "Produce", "Relinquish"],
@@ -767,7 +750,6 @@
   {
     "id": 69,
     "word": "Zealous",
-    "category": "Personality",
     "englishMeaning": "Having or showing zeal; great energy or enthusiasm.",
     "hindiMeaning": "उत्साही (Utsahi)",
     "synonyms": ["Enthusiastic", "Fervent", "Ardent"],
@@ -779,7 +761,6 @@
   {
     "id": 70,
     "word": "Abode",
-    "category": "Place",
     "englishMeaning": "A place of residence; a house or home.",
     "hindiMeaning": "निवास (Niwas)",
     "synonyms": ["Dwelling", "Habitat", "Quarters"],
@@ -791,7 +772,6 @@
   {
     "id": 71,
     "word": "Banal",
-    "category": "Nature of Things",
     "englishMeaning": "So lacking in originality as to be obvious and boring.",
     "hindiMeaning": "तुच्छ / साधारण (Tuchh / Sadharan)",
     "synonyms": ["Trite", "Hackneyed", "Commonplace"],
@@ -803,7 +783,6 @@
   {
     "id": 72,
     "word": "Cajole",
-    "category": "Action/Communication",
     "englishMeaning": "Persuade someone to do something by sustained coaxing or flattery.",
     "hindiMeaning": "फुसलाना (Phuslana)",
     "synonyms": ["Wheedle", "Coax", "Beguile"],
@@ -815,7 +794,6 @@
   {
     "id": 73,
     "word": "Docile",
-    "category": "Personality",
     "englishMeaning": "Ready to accept control or instruction; submissive.",
     "hindiMeaning": "विनम्र (Vinamra)",
     "synonyms": ["Compliant", "Amenable", "Tame"],
@@ -827,7 +805,6 @@
   {
     "id": 74,
     "word": "Enervate",
-    "category": "State of Being",
     "englishMeaning": "Cause (someone) to feel drained of energy or vitality; weaken.",
     "hindiMeaning": "कमजोर करना (Kamjor karna)",
     "synonyms": ["Exhaust", "Fatigue", "Devitalize"],
@@ -839,7 +816,6 @@
   {
     "id": 75,
     "word": "Fathom",
-    "category": "Understanding",
     "englishMeaning": "Understand (a difficult problem or an enigmatic person) after much thought.",
     "hindiMeaning": "समझना (Samajhna)",
     "synonyms": ["Comprehend", "Grasp", "Decipher"],
@@ -851,7 +827,6 @@
   {
     "id": 76,
     "word": "Gloat",
-    "category": "Behavior",
     "englishMeaning": "Dwell on one's own success or another's misfortune with smugness.",
     "hindiMeaning": "अभिमान करना (Abhiman karna)",
     "synonyms": ["Exult", "Triumph", "Relish"],
@@ -863,7 +838,6 @@
   {
     "id": 77,
     "word": "Hiatus",
-    "category": "Time",
     "englishMeaning": "A pause or gap in a sequence, series, or process.",
     "hindiMeaning": "अंतराल (Antral)",
     "synonyms": ["Pause", "Break", "Interruption"],
@@ -875,7 +849,6 @@
   {
     "id": 78,
     "word": "Imminent",
-    "category": "Events",
     "englishMeaning": "About to happen.",
     "hindiMeaning": "करीब (Kareeb)",
     "synonyms": ["Impending", "Approaching", "Forthcoming"],
@@ -887,7 +860,6 @@
   {
     "id": 79,
     "word": "Jovial",
-    "category": "Personality",
     "englishMeaning": "Cheerful and friendly.",
     "hindiMeaning": "हंसमुख (Hansmukh)",
     "synonyms": ["Cheerful", "Jolly", "Mirthful"],
@@ -899,7 +871,6 @@
   {
     "id": 80,
     "word": "Kindred",
-    "category": "Social",
     "englishMeaning": "One's family and relations; similar in kind or character.",
     "hindiMeaning": "सजातीय (Sajatiya)",
     "synonyms": ["Related", "Kin", "Congenial"],
@@ -911,7 +882,6 @@
   {
     "id": 81,
     "word": "Lucid",
-    "category": "Communication/State",
     "englishMeaning": "Expressed clearly; easy to understand.",
     "hindiMeaning": "स्पष्ट (Spasht)",
     "synonyms": ["Clear", "Coherent", "Transparent"],
@@ -923,7 +893,6 @@
   {
     "id": 82,
     "word": "Mundane",
-    "category": "Nature of Things",
     "englishMeaning": "Lacking interest or excitement; dull.",
     "hindiMeaning": "साधारण (Sadharan)",
     "synonyms": ["Ordinary", "Banal", "Workaday"],
@@ -935,7 +904,6 @@
   {
     "id": 83,
     "word": "Nonchalant",
-    "category": "Behavior",
     "englishMeaning": "Feeling or appearing casually calm and relaxed; not displaying anxiety.",
     "hindiMeaning": "बेपरवाह (Beparwah)",
     "synonyms": ["Indifferent", "Calm", "Unconcerned"],
@@ -947,7 +915,6 @@
   {
     "id": 84,
     "word": "Obliterate",
-    "category": "Action",
     "englishMeaning": "Destroy utterly; wipe out.",
     "hindiMeaning": "मिटा देना (Mita dena)",
     "synonyms": ["Eradicate", "Annihilate", "Demolish"],
@@ -959,7 +926,6 @@
   {
     "id": 85,
     "word": "Paradox",
-    "category": "Nature of Things",
     "englishMeaning": "A seemingly absurd or self-contradictory statement or proposition that when investigated may prove to be true.",
     "hindiMeaning": "विरोधाभास (Virodhabhas)",
     "synonyms": ["Contradiction", "Inconsistency", "Enigma"],
@@ -971,7 +937,6 @@
   {
     "id": 86,
     "word": "Quell",
-    "category": "Action",
     "englishMeaning": "Put an end to (a rebellion or other disorder), typically by the use of force.",
     "hindiMeaning": "दबाना (Dabana)",
     "synonyms": ["Suppress", "Subdue", "Extinguish"],
@@ -983,7 +948,6 @@
   {
     "id": 87,
     "word": "Resilient",
-    "category": "Personality",
     "englishMeaning": "Able to withstand or recover quickly from difficult conditions.",
     "hindiMeaning": "लचीला / मजबूत (Lachila / Mazboot)",
     "synonyms": ["Tough", "Hardy", "Buoyant"],
@@ -995,7 +959,6 @@
   {
     "id": 88,
     "word": "Squalid",
-    "category": "State/Place",
     "englishMeaning": "Extremely dirty and unpleasant, especially as a result of poverty or neglect.",
     "hindiMeaning": "घिनौना / गंदा (Ghinona / Ganda)",
     "synonyms": ["Filthy", "Sordid", "Grubby"],
@@ -1007,7 +970,6 @@
   {
     "id": 89,
     "word": "Tantamount",
-    "category": "Comparison",
     "englishMeaning": "Equivalent in seriousness to; virtually the same as.",
     "hindiMeaning": "समान (Saman)",
     "synonyms": ["Equivalent", "Equal", "Identical"],
@@ -1019,7 +981,6 @@
   {
     "id": 90,
     "word": "Uncouth",
-    "category": "Behavior",
     "englishMeaning": "Lacking good manners, refinement, or grace.",
     "hindiMeaning": "असभ्य (Asabhya)",
     "synonyms": ["Boorish", "Oafish", "Rude"],
@@ -1031,7 +992,6 @@
   {
     "id": 91,
     "word": "Vindicate",
-    "category": "Action/Law",
     "englishMeaning": "Clear (someone) of blame or suspicion.",
     "hindiMeaning": "दोषमुक्त करना (Doshmukt karna)",
     "synonyms": ["Acquit", "Absolve", "Exonerate"],
@@ -1043,7 +1003,6 @@
   {
     "id": 92,
     "word": "Waver",
-    "category": "Action/Decision",
     "englishMeaning": "Become unsteady or unreliable; be undecided between two opinions.",
     "hindiMeaning": "डगमगाना (Dagmagana)",
     "synonyms": ["Falter", "Vacillate", "Dither"],
@@ -1055,7 +1014,6 @@
   {
     "id": 93,
     "word": "Acrimonious",
-    "category": "Communication",
     "englishMeaning": "Angry and bitter (typically of a speech or a debate).",
     "hindiMeaning": "कटुतापूर्ण (Katutapurn)",
     "synonyms": ["Bitter", "Caustic", "Rancorous"],
@@ -1067,7 +1025,6 @@
   {
     "id": 94,
     "word": "Belligerent",
-    "category": "Personality/Behavior",
     "englishMeaning": "Hostile and aggressive.",
     "hindiMeaning": "युद्धरत / लड़ाकू (Yuddhrat / Laraku)",
     "synonyms": ["Bellicose", "Pugnacious", "Antagonistic"],
@@ -1079,7 +1036,6 @@
   {
     "id": 95,
     "word": "Clandestine",
-    "category": "Operations",
     "englishMeaning": "Kept secret or done secretively, especially because illicit.",
     "hindiMeaning": "गुप्त (Gupt)",
     "synonyms": ["Covert", "Surreptitious", "Furtive"],
@@ -1091,7 +1047,6 @@
   {
     "id": 96,
     "word": "Diligent",
-    "category": "Personality",
     "englishMeaning": "Having or showing care and conscientiousness in one's work.",
     "hindiMeaning": "मेहनती (Mehnati)",
     "synonyms": ["Assiduous", "Industrious", "Hardworking"],
@@ -1103,7 +1058,6 @@
   {
     "id": 97,
     "word": "Ebullient",
-    "category": "Personality",
     "englishMeaning": "Cheerful and full of energy.",
     "hindiMeaning": "जोशीला (Joshila)",
     "synonyms": ["Exuberant", "Buoyant", "Vivacious"],
@@ -1115,7 +1069,6 @@
   {
     "id": 98,
     "word": "Fastidious",
-    "category": "Personality",
     "englishMeaning": "Very attentive to and concerned about accuracy and detail.",
     "hindiMeaning": "तुनुकमिज़ाज (Tunukmizaj)",
     "synonyms": ["Meticulous", "Picky", "Fussy"],
@@ -1127,7 +1080,6 @@
   {
     "id": 99,
     "word": "Garrulous",
-    "category": "Communication",
     "englishMeaning": "Excessively talkative, especially on trivial matters.",
     "hindiMeaning": "बातूनी (Baatuni)",
     "synonyms": ["Loquacious", "Voluble", "Chatty"],
@@ -1139,7 +1091,6 @@
   {
     "id": 100,
     "word": "Haughty",
-    "category": "Pers
     "englishMeaning": "Arrogantly superior and disdainful.",
     "hindiMeaning": "घमंडी (Ghamandi)",
     "synonyms": ["Arrogant", "Conceited", "Supercilious"],
