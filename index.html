@@ -295,38 +295,34 @@
       <div class="section-header">
         <div>
           <h2 class="section-title">
-            <i data-lucide="brain" class="title-icon"></i> SSB Interview Quiz
+            <i data-lucide="brain" class="title-icon"></i> NDA / CDS / AFCAT Quiz
           </h2>
-          <p class="section-subtitle">Practice real SSB questions with hints and model answers</p>
+          <p class="section-subtitle">Topic-wise MCQ practice — History, Geography, Polity, Science, Maths, English & more</p>
         </div>
       </div>
-      <div style="margin-bottom:2.5rem;">
-        <div class="section-header" style="margin-bottom:1rem;">
-          <h3 style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--text-secondary);display:flex;align-items:center;gap:0.5rem;">
-            <i data-lucide="shuffle" style="width:17px;height:17px;"></i> Random Question Generator
-          </h3>
-        </div>
-        <div class="random-question-section">
-          <div id="random-question-display"></div>
-        </div>
-        <div style="text-align:center;margin-bottom:1rem;display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
-          <button class="btn-primary" onclick="QuizManager.showRandomQuestion()">
-            <i data-lucide="shuffle" class="btn-icon"></i> Random Question
+
+      <!-- Subject & Exam Filters -->
+      <div class="quiz-filter-wrap">
+        <div id="quiz-filter-bar"></div>
+        <div class="quiz-start-bar">
+          <button class="btn-primary" onclick="QuizManager.startQuiz()">
+            <i data-lucide="play" class="btn-icon"></i> Start Quiz
           </button>
-          <button class="btn-sm btn-outline" onclick="QuizManager.startQuiz()" style="padding:0.65rem 1.25rem;">
-            <i data-lucide="list" class="btn-icon"></i> Start Full Quiz
+          <button class="btn-sm btn-outline" onclick="QuizManager.showRandomQuestion()" style="padding:0.6rem 1.25rem;">
+            <i data-lucide="shuffle" class="btn-icon"></i> Random Q
           </button>
         </div>
       </div>
+
+      <!-- Random Question Display -->
+      <div id="random-question-display" style="margin-bottom:1.5rem;"></div>
+
+      <!-- Main Quiz Container -->
       <div id="quiz-container">
         <div class="empty-state">
           <i data-lucide="brain" class="empty-icon-svg"></i>
-          <h3>Ready to Practice?</h3>
-          <p>Click "Start Full Quiz" above to begin your SSB preparation.</p>
-          <br>
-          <button class="btn-primary" onclick="QuizManager.startQuiz()">
-            Start Quiz <i data-lucide="arrow-right" class="btn-icon"></i>
-          </button>
+          <h3>Select Filters &amp; Start</h3>
+          <p>Choose a subject and exam above, then click Start Quiz.</p>
         </div>
       </div>
     </section>
@@ -414,3 +410,4 @@
   </script>
 </body>
 </html>
+
