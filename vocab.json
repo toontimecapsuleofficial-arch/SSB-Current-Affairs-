@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "word": "Strategic Autonomy",
+    "definition": "A foreign policy approach where a country pursues its national interests independently, without binding itself to any single bloc or power, while engaging with all major powers.",
+    "usage": "India's decision to purchase S-400 from Russia despite US pressure reflects its commitment to strategic autonomy.",
+    "category": "Foreign Policy",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "word": "Deterrence",
+    "definition": "The prevention of an action by instilling fear of the consequences. In military context, it means possessing sufficient retaliatory capability to dissuade adversaries from attack.",
+    "usage": "India's nuclear triad provides credible minimum deterrence against potential adversaries.",
+    "category": "Military",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "word": "MIRV",
+    "definition": "Multiple Independently targetable Re-entry Vehicle — a missile payload carrying several warheads, each capable of being directed at different targets.",
+    "usage": "India's Agni-V with MIRV capability can engage multiple targets simultaneously.",
+    "category": "Technology",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 4,
+    "word": "Geopolitics",
+    "definition": "The study of the effects of Earth's geography on politics and international relations, particularly with respect to the foreign policy of a nation.",
+    "usage": "The Indo-Pacific geopolitics is increasingly shaped by China's rising assertiveness.",
+    "category": "Foreign Policy",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "word": "Asymmetric Warfare",
+    "definition": "Conflict between belligerents whose relative military power, strategy, or tactics differ significantly, often involving unconventional methods against conventional forces.",
+    "usage": "Drone swarms represent a new form of asymmetric warfare that challenges conventional militaries.",
+    "category": "Military",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "word": "Non-Alignment",
+    "definition": "A foreign policy position in which a nation refuses to join any permanent military alliance or bloc, originally popularised during the Cold War by India's Jawaharlal Nehru.",
+    "usage": "India's Non-Alignment Movement leadership helped establish its independent foreign policy tradition.",
+    "category": "Foreign Policy",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "word": "Theatre Command",
+    "definition": "An integrated military command structure that combines Army, Navy, and Air Force assets under a unified commander for operations in a specific geographic region.",
+    "usage": "India is reforming its military towards Theatre Commands to improve joint operational effectiveness.",
+    "category": "Military",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "word": "CAATSA",
+    "definition": "Countering America's Adversaries Through Sanctions Act — US legislation that imposes sanctions on countries purchasing major defence equipment from Russia, Iran, or North Korea.",
+    "usage": "India received a CAATSA waiver from the US for its S-400 purchase from Russia.",
+    "category": "Foreign Policy",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9,
+    "word": "Naval Diplomacy",
+    "definition": "The use of naval assets — ships, submarines, and aircraft — as instruments of foreign policy to project power, build partnerships, or signal intent without direct conflict.",
+    "usage": "India's participation in HADR operations after Cyclone Yasa demonstrated its naval diplomacy.",
+    "category": "Military",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "word": "Indigenisation",
+    "definition": "The process of developing and manufacturing defence equipment domestically rather than importing it, aimed at self-reliance and reducing strategic dependence on foreign suppliers.",
+    "usage": "INS Vikrant's commissioning is the pinnacle of India's defence indigenisation efforts.",
+    "category": "Defence",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "word": "Proxy War",
+    "definition": "A conflict where a major power supports and fights through a third party rather than engaging directly, to achieve strategic objectives while maintaining plausible deniability.",
+    "usage": "Pakistan's support for militant groups in Kashmir is considered a proxy war strategy against India.",
+    "category": "Military",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "word": "Maritime Domain Awareness",
+    "definition": "The effective understanding of anything associated with the maritime domain that could impact security, safety, economy, or environment — achieved through surveillance, intelligence, and information sharing.",
+    "usage": "India's Information Fusion Centre - Indian Ocean Region enhances Maritime Domain Awareness in the IOR.",
+    "category": "Military",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 13,
+    "word": "Cold Start Doctrine",
+    "definition": "India's military strategy that aims for rapid mobilisation and shallow, swift offensive operations against Pakistan before nuclear thresholds are crossed.",
+    "usage": "Pakistan's development of tactical nuclear weapons was a direct response to India's Cold Start Doctrine.",
+    "category": "Military",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 14,
+    "word": "Soft Power",
+    "definition": "The ability of a country to persuade others to do what it wants without force or coercion, through culture, values, education, and diplomacy.",
+    "usage": "Indian cinema, yoga, and IT sector contribute significantly to India's soft power globally.",
+    "category": "Foreign Policy",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "word": "Net Security Provider",
+    "definition": "A state that contributes to regional or global security beyond its own national security needs, by assisting smaller or less capable states with security challenges.",
+    "usage": "India aspires to be a net security provider in the Indian Ocean Region.",
+    "category": "Military",
+    "difficulty": "Medium"
+  }
+]

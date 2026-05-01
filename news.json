@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "India Successfully Tests Agni-V MIRV Ballistic Missile",
+    "summary": "India's DRDO conducted a successful test of the Agni-V missile equipped with Multiple Independently Targetable Re-entry Vehicle (MIRV) technology, marking a significant leap in India's strategic deterrence capability.",
+    "content": "The Defence Research and Development Organisation (DRDO) successfully tested the Agni-V ballistic missile with MIRV technology under Mission Divyastra. This makes India one of a select group of nations with MIRV capability. The missile can carry multiple nuclear warheads to different targets simultaneously, significantly enhancing India's deterrence posture. The test was monitored personally by Prime Minister Narendra Modi and marks a watershed moment in India's strategic defence programme. The development is particularly significant given India's evolving security environment and the need to maintain credible minimum deterrence.",
+    "category": "Defence",
+    "date": "2024-03-11",
+    "image": "🚀",
+    "tags": ["DRDO", "Missile", "Nuclear", "Strategic"],
+    "readTime": 4
+  },
+  {
+    "id": 2,
+    "title": "India-France Sign Agreement for 26 Rafale Marine Jets",
+    "summary": "India signed a government-to-government deal with France for 26 Rafale Marine aircraft for the Indian Navy, strengthening bilateral defence ties.",
+    "content": "India and France formalized a landmark deal for 26 Rafale Marine aircraft for the Indian Navy. This deal, valued at approximately ₹63,887 crore, includes 22 single-seat and 4 twin-seat trainer variants. The Rafale Marine is a carrier-based variant specifically designed for aircraft carrier operations. These jets will significantly enhance the Indian Navy's air arm capability. The deal also includes technology transfer provisions, maintenance support, and training for Indian pilots and technicians. This acquisition follows the success of the 36 Rafale jets already inducted into the Indian Air Force and underscores the deep strategic partnership between India and France.",
+    "category": "Defence",
+    "date": "2024-07-22",
+    "image": "✈️",
+    "tags": ["Navy", "Rafale", "France", "Air Power"],
+    "readTime": 5
+  },
+  {
+    "id": 3,
+    "title": "India Joins Elite Group with Commissioning of INS Vikrant",
+    "summary": "INS Vikrant, India's first indigenously built aircraft carrier, represents a historic milestone for Indian naval power and the Make in India initiative.",
+    "content": "INS Vikrant (IAC-1) stands as a testament to India's growing defence industrial capability. Built at Cochin Shipyard Limited, the carrier displaces 45,000 tonnes and can carry up to 30 aircraft. Its commissioning makes India one of only five countries capable of designing and building an aircraft carrier domestically. The carrier features a ski-jump ramp for aircraft launch and is equipped with advanced sensors and weapon systems. INS Vikrant will operate MiG-29K fighters and Kamov Ka-31 helicopters, with future plans to induct the indigenous Twin Engine Deck Based Fighter (TEDBF). The ship's name honours the original INS Vikrant that played a pivotal role in the 1971 Bangladesh Liberation War.",
+    "category": "Defence",
+    "date": "2022-09-02",
+    "image": "🚢",
+    "tags": ["Navy", "Aircraft Carrier", "Make in India", "INS Vikrant"],
+    "readTime": 6
+  },
+  {
+    "id": 4,
+    "title": "SCO Summit 2024: India's Strategic Engagements",
+    "summary": "The Shanghai Cooperation Organisation summit highlighted India's nuanced diplomacy in balancing relationships with Central Asian nations while managing tensions with China and Pakistan.",
+    "content": "India's participation in the SCO framework reflects its multi-alignment foreign policy strategy. The SCO, which includes China, Russia, Pakistan, and Central Asian nations, provides a platform for India to engage on security, trade, and connectivity issues despite bilateral tensions with some members. India has consistently raised concerns about cross-border terrorism within SCO platforms, directly targeting Pakistan's support for terror groups. India's approach to the SCO exemplifies its strategic autonomy doctrine — engaging multilaterally while protecting core national interests. The Central Asian connectivity dimension of SCO is particularly important for India as it seeks alternatives to Pakistani-controlled routes for trade with Afghanistan and beyond.",
+    "category": "Geopolitics",
+    "date": "2024-10-15",
+    "image": "🌍",
+    "tags": ["SCO", "Diplomacy", "China", "Central Asia"],
+    "readTime": 5
+  },
+  {
+    "id": 5,
+    "title": "Operation Sindoor: India's Precision Strike Against Terror Camps",
+    "summary": "India conducted precision airstrikes against terror infrastructure across the border following the Pahalgam terror attack, demonstrating a new doctrine of punitive response.",
+    "content": "Operation Sindoor marked a significant shift in India's counter-terrorism strategy. The Indian Air Force conducted precision strikes against identified terrorist training camps and infrastructure. The operation was carefully calibrated to target non-state actors while avoiding escalation with state military assets. The strikes demonstrated India's growing precision strike capability and intelligence gathering infrastructure. The operation sent a clear message about India's new doctrine: cross-border terrorism will be met with direct military consequences. The name 'Sindoor' holds deep cultural significance, symbolizing the protection of lives and national honour. The operation received widespread domestic support and carefully managed international communication.",
+    "category": "Defence",
+    "date": "2025-05-07",
+    "image": "⚔️",
+    "tags": ["Counter-Terrorism", "IAF", "Pakistan", "Strike"],
+    "readTime": 7
+  },
+  {
+    "id": 6,
+    "title": "India's Defence Exports Cross ₹21,000 Crore Milestone",
+    "summary": "India's defence exports have grown dramatically, reaching ₹21,083 crore, as the country emerges as a significant global arms supplier.",
+    "content": "India's defence export journey from a net importer to an emerging exporter represents one of the most significant transformations in its defence ecosystem. The government's target of ₹35,000 crore in exports by 2025 appears within reach. Key exported items include the BrahMos supersonic cruise missile (Philippines deal), Dornier aircraft, Pinaka rocket systems, radars, and various ammunition types. Over 85 countries now import Indian defence equipment. The iDEX (Innovations for Defence Excellence) framework and the Defence Acquisition Procedure have been instrumental in catalysing private sector participation. Companies like HAL, BEL, and private players like Larsen & Toubro and Tata Advanced Systems are leading this transformation.",
+    "category": "Defence",
+    "date": "2024-12-01",
+    "image": "🏭",
+    "tags": ["Defence Exports", "Make in India", "BrahMos", "DRDO"],
+    "readTime": 5
+  },
+  {
+    "id": 7,
+    "title": "Quad Summit Reinforces Indo-Pacific Security Architecture",
+    "summary": "The Quadrilateral Security Dialogue between India, USA, Japan, and Australia continues to evolve as a key pillar of Indo-Pacific security cooperation.",
+    "content": "The Quad grouping has transformed from an informal dialogue forum to a substantive security and technology partnership. Key Quad initiatives include joint military exercises (Malabar), maritime domain awareness, critical and emerging technology collaboration, cybersecurity cooperation, and infrastructure investment as an alternative to China's Belt and Road Initiative. India's participation in the Quad reflects its strategic convergence with democratic nations on maintaining a free, open, and rules-based Indo-Pacific order. However, India maintains that the Quad is not a military alliance, consistent with its strategic autonomy doctrine. The group's focus areas include vaccine diplomacy, semiconductor supply chains, and clean energy — extending its remit beyond traditional security.",
+    "category": "Geopolitics",
+    "date": "2024-09-21",
+    "image": "🤝",
+    "tags": ["Quad", "Indo-Pacific", "USA", "Japan", "Australia"],
+    "readTime": 6
+  },
+  {
+    "id": 8,
+    "title": "DRDO Develops Indigenous Anti-Drone System for Armed Forces",
+    "summary": "India's DRDO has developed a comprehensive anti-drone system capable of detecting, tracking, and neutralising hostile unmanned aerial vehicles.",
+    "content": "Counter-unmanned aerial system (C-UAS) technology has become a critical defence requirement following drone-based attacks on Indian installations. DRDO's Drone Dome system integrates radar detection, radio frequency jamming, laser-based neutralisation, and kinetic interceptors. The system can handle drone swarm attacks, which represent the newest asymmetric warfare threat. Lessons from the Russia-Ukraine conflict and the Armenia-Azerbaijan war have underscored the game-changing role of drones in modern warfare. India's indigenous C-UAS capability ensures operational security without dependence on foreign suppliers. The technology is being deployed at critical military installations, border posts, and for VIP security.",
+    "category": "Technology",
+    "date": "2024-06-15",
+    "image": "🛸",
+    "tags": ["DRDO", "Anti-Drone", "Technology", "Asymmetric Warfare"],
+    "readTime": 5
+  },
+  {
+    "id": 9,
+    "title": "India-Russia S-400 Triumph: Geopolitical Implications",
+    "summary": "India's acquisition of the Russian S-400 air defence system despite US CAATSA threats demonstrates India's strategic autonomy and complex balancing act.",
+    "content": "The S-400 Triumf air defence system acquisition from Russia placed India in a delicate position vis-à-vis the United States and its CAATSA (Countering America's Adversaries Through Sanctions Act) legislation. India successfully navigated this challenge, receiving a CAATSA waiver while taking delivery of S-400 systems. The S-400 significantly enhances India's air defence umbrella, capable of engaging targets at ranges up to 400 km and countering aircraft, missiles, and drones. India's ability to acquire a premier Russian military system while deepening its strategic partnership with the US exemplifies the principle of strategic autonomy. This episode also demonstrated India's growing geopolitical weight — few countries could have managed this balancing act successfully.",
+    "category": "Geopolitics",
+    "date": "2023-04-20",
+    "image": "🛡️",
+    "tags": ["S-400", "Russia", "USA", "Air Defence", "CAATSA"],
+    "readTime": 6
+  },
+  {
+    "id": 10,
+    "title": "Exercise Tasman Saber: India-Australia Joint Military Drills",
+    "summary": "India and Australia conducted joint military exercises as part of their Comprehensive Strategic Partnership, enhancing interoperability between the two nations' armed forces.",
+    "content": "The India-Australia Comprehensive Strategic Partnership has gained significant momentum with regular military exercises across all three services. The Ausindex naval exercise, Pitch Black air force exercise, and Australia-India joint army exercises demonstrate the deepening security dimension. Both nations share concerns about Chinese assertiveness in the Indo-Pacific and have aligned interests in freedom of navigation. The Australia-India relationship has also grown in areas of defence technology sharing, rare earth minerals (critical for defence manufacturing), and intelligence cooperation through their Five Eyes-adjacent arrangements. India's growing defence partnership with Australia complements the Quad framework and represents a significant expansion of its security partnerships.",
+    "category": "Defence",
+    "date": "2024-07-28",
+    "image": "🦅",
+    "tags": ["India-Australia", "Joint Exercise", "Quad", "Indo-Pacific"],
+    "readTime": 4
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Why do you want to join the Indian Armed Forces?",
+    "category": "Personal",
+    "type": "ssb_interview",
+    "hints": ["Mention service to nation", "Personal values alignment", "Leadership aspirations", "Inspiration from role models"],
+    "sampleAnswer": "The Armed Forces represent the highest form of national service. I want to join because I believe in protecting our nation's sovereignty, living a life of discipline and honour, and leading men and women in challenging situations. The military lifestyle aligns with my core values of integrity, courage, and selfless service."
+  },
+  {
+    "id": 2,
+    "question": "What is the full form of SSB and what are its stages?",
+    "category": "SSB Knowledge",
+    "type": "knowledge",
+    "hints": ["Services Selection Board", "2 stages: Screening and Testing", "Stage 1: OIR, PPDT", "Stage 2: Psychology, GTO, Interview"],
+    "sampleAnswer": "SSB stands for Services Selection Board. Stage 1 consists of Officer Intelligence Rating (OIR) tests and Picture Perception & Discussion Test (PPDT). Stage 2 spans 4 days covering Psychological Tests (TAT, WAT, SRT, SDT), Group Testing Officer tasks, and the Personal Interview."
+  },
+  {
+    "id": 3,
+    "question": "What are Officer Like Qualities (OLQs) tested at SSB?",
+    "category": "SSB Knowledge",
+    "type": "knowledge",
+    "hints": ["15 OLQs across 4 categories", "Social, Psychological, Planning, Communication"],
+    "sampleAnswer": "The 15 OLQs are grouped into 4 categories: (1) Social — Ability to influence group, Likeability, Social adaptability; (2) Planning — Power of expression, Group cooperation, Constructive thinking; (3) Psychological — Effective intelligence, Reasoning ability, Willpower, Initiative; (4) Communication — Courage, Self confidence, Stamina, Speed in decision making, Determination."
+  },
+  {
+    "id": 4,
+    "question": "Explain India's Nuclear Doctrine and its key principles.",
+    "category": "Defence",
+    "type": "knowledge",
+    "hints": ["No First Use (NFU)", "Credible Minimum Deterrence", "Massive Retaliation", "Nuclear triad"],
+    "sampleAnswer": "India's Nuclear Doctrine is based on three pillars: No First Use (NFU) — India will not use nuclear weapons first; Credible Minimum Deterrence — maintaining enough capability to assure survival of second strike; and Massive Retaliation — any nuclear attack on India will be met with massive retaliation. India maintains a nuclear triad through land-based Agni missiles, submarine-launched K-4/K-15 missiles from Arihant class SSBNs, and air-delivered weapons via Mirage 2000 and Jaguar aircraft."
+  },
+  {
+    "id": 5,
+    "question": "If you are posted in a remote location with no facilities, how would you manage?",
+    "category": "Situation-Based",
+    "type": "ssb_interview",
+    "hints": ["Show adaptability", "Focus on mission", "Leadership in adversity", "Positive attitude"],
+    "sampleAnswer": "Remote postings are part of the military profession and I would embrace the challenge. I would focus on maintaining physical fitness through available resources, keeping my team morale high through leadership by example, using the time for professional development and study, and creating a sense of community with fellow soldiers. The mission always comes first, and personal comfort is secondary."
+  },
+  {
+    "id": 6,
+    "question": "What is India's Act East Policy and its strategic significance?",
+    "category": "Foreign Policy",
+    "type": "knowledge",
+    "hints": ["Evolved from Look East Policy", "ASEAN centrality", "Maritime connectivity", "Counter-balancing China"],
+    "sampleAnswer": "Act East Policy, launched in 2014 as an upgrade to the Look East Policy, aims to promote economic, strategic, and cultural relations with Asia-Pacific nations. Its significance lies in: diversifying India's strategic partnerships, tapping into fast-growing ASEAN economies, gaining access to Pacific maritime space, connecting India's northeast with Southeast Asia, and creating a counterbalance to China's growing influence in the region."
+  },
+  {
+    "id": 7,
+    "question": "Describe the Line of Actual Control (LAC) dispute with China.",
+    "category": "Defence",
+    "type": "knowledge",
+    "hints": ["Not legally demarcated", "3 sectors: Western, Middle, Eastern", "Galwan Valley 2020", "Different perceptions of LAC"],
+    "sampleAnswer": "The LAC is the de facto boundary between India and China spanning approximately 3,488 km, divided into three sectors: Western (Ladakh), Middle (Himachal Pradesh, Uttarakhand), and Eastern (Sikkim, Arunachal Pradesh). Unlike the Line of Control with Pakistan, the LAC has never been formally demarcated. Both countries have different perceptions of where the LAC lies, leading to periodic standoffs. The 2020 Galwan Valley clash was the deadliest since 1967. Ongoing military talks have resulted in partial disengagement but the boundary question remains unresolved."
+  },
+  {
+    "id": 8,
+    "question": "How would you handle a situation where a colleague is underperforming and affecting the team?",
+    "category": "Leadership",
+    "type": "ssb_interview",
+    "hints": ["Identify root cause", "Private conversation first", "Support not punish", "Escalate if needed"],
+    "sampleAnswer": "I would first speak privately with the colleague to understand the underlying reasons — personal problems, skill gaps, or health issues. I would offer support, mentoring, or pair them with a stronger team member. I would set clear, measurable improvement targets and regular check-ins. If performance doesn't improve despite support, I would escalate to the commanding officer while having documented the steps taken. A good leader never gives up on a team member without exhausting all options first."
+  },
+  {
+    "id": 9,
+    "question": "What is the significance of Operation Vijay (1999 Kargil War)?",
+    "category": "Defence History",
+    "type": "knowledge",
+    "hints": ["Pakistani intrusion", "High altitude warfare", "Bofors guns decisive", "Diplomatic isolation of Pakistan"],
+    "sampleAnswer": "Operation Vijay (July 1999) was India's military campaign to evict Pakistani forces and militants who had infiltrated the Kargil heights in Jammu & Kashmir. Its significance: it demonstrated India's military capability in high-altitude warfare; the Bofors howitzers proved decisive in mountain artillery; India maintained international legitimacy by not crossing the LoC; it exposed Pakistan's duplicity (Nawaz Sharif-Vajpayee Lahore Declaration violated); and it resulted in Pakistan's complete diplomatic isolation. 527 Indian soldiers made the supreme sacrifice."
+  },
+  {
+    "id": 10,
+    "question": "What are your weaknesses and how are you working on them?",
+    "category": "Personal",
+    "type": "ssb_interview",
+    "hints": ["Be honest, don't say 'I have no weaknesses'", "Show self-awareness", "Show corrective action", "Avoid fatal flaws"],
+    "sampleAnswer": "I tend to be overly perfectionist, which sometimes slows my decision-making when I spend too much time analysing all options. I am working on this by practising time-boxed decision-making, setting decision deadlines for myself, and learning to distinguish between situations that require extensive analysis versus those requiring quick action. I have made significant progress by participating in group decision-making exercises and studying military decision-making frameworks."
+  },
+  {
+    "id": 11,
+    "question": "Explain the concept of Integrated Theatre Commands in India.",
+    "category": "Defence",
+    "type": "knowledge",
+    "hints": ["Joint command of Army, Navy, Air Force", "Geographic area of responsibility", "CDS mandate", "Lessons from US CENTCOM etc"],
+    "sampleAnswer": "Integrated Theatre Commands consolidate Army, Navy, and Air Force assets under a single commander for a specific geographic region. India is creating three Theatre Commands: Maritime Theatre Command (western and eastern seaboards), Air Defence Theatre Command, and Land-based commands for borders. The Chief of Defence Staff (CDS) is mandated to create this structure. Benefits include unified command, jointness, reduced duplication of resources, and more effective multi-domain operations. This reform is modelled on successful examples like the US Unified Combatant Commands structure."
+  },
+  {
+    "id": 12,
+    "question": "How would you motivate your team during a prolonged and difficult operation?",
+    "category": "Leadership",
+    "type": "ssb_interview",
+    "hints": ["Lead by example", "Communicate purpose", "Small wins", "Physical and mental welfare"],
+    "sampleAnswer": "During prolonged difficult operations, I would keep my team motivated by: first, ensuring every soldier understands the purpose and importance of the mission; leading from the front in all hardships; celebrating small victories to maintain morale; rotating responsibilities to prevent burnout; personally checking on each soldier's physical and mental welfare; maintaining dark humour and esprit de corps; ensuring adequate rest periods when tactically possible; and reminding the team of the greater cause we serve — the nation."
+  },
+  {
+    "id": 13,
+    "question": "What is India's stance on the Russia-Ukraine conflict?",
+    "category": "Geopolitics",
+    "type": "knowledge",
+    "hints": ["Strategic autonomy", "Abstained in UNSC", "Humanitarian concern", "Peace advocate without taking sides"],
+    "sampleAnswer": "India has maintained a position of strategic autonomy, abstaining from UN Security Council and General Assembly votes condemning Russia's actions. India's stance is based on: historical ties with Russia (major defence supplier, S-400 deal); the principle of dialogue and diplomacy over confrontation; humanitarian concerns (evacuated 22,000 Indian students via Operation Ganga); continued purchase of discounted Russian oil within legal frameworks; and advocating for a negotiated settlement. India has balanced its position carefully — not endorsing the invasion while not joining Western sanctions — maintaining access to both sides as a potential peace broker."
+  },
+  {
+    "id": 14,
+    "question": "Describe a moment when you showed leadership qualities in your daily life.",
+    "category": "Personal",
+    "type": "ssb_interview",
+    "hints": ["Concrete example", "STAR method (Situation, Task, Action, Result)", "Genuine story", "OLQs demonstrated"],
+    "sampleAnswer": "During my college sports tournament, our team captain fractured his leg before the semifinal. As vice-captain, I immediately took charge — reorganised player positions based on each person's strength, held a motivational huddle focusing on what we could control, managed conflict between two senior players about positions through one-on-one conversations, and led the team to win both the semifinal and final. This experience taught me that leadership is about staying calm under pressure, making decisive decisions, and bringing the best out of every team member."
+  },
+  {
+    "id": 15,
+    "question": "What is the Artemis Accords and India's involvement?",
+    "category": "Defence & Space",
+    "type": "knowledge",
+    "hints": ["US-led space cooperation framework", "Moon exploration principles", "India signed in 2023", "ISRO-NASA collaboration"],
+    "sampleAnswer": "The Artemis Accords, led by the United States, establish principles for peaceful and transparent civil space exploration, particularly focusing on lunar exploration and beyond. Key principles include peaceful purposes, transparency, interoperability, emergency assistance, registration of space objects, and preservation of space heritage. India signed the Accords in June 2023, aligning with its growing space partnership with the US following the iCET (Initiative on Critical and Emerging Technology) framework. This also complements NASA-ISRO collaboration on joint Earth observation satellites and paves the way for Indian astronauts on future Artemis missions."
+  }
+]
