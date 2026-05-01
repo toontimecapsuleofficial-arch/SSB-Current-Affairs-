@@ -798,5 +798,325 @@
     "type": "ssb_interview",
     "hints": ["Authenticity", "Family", "Specific comfort"],
     "sampleAnswer": "I will miss the spontaneity of spending long evenings with my family and the comfort of home-cooked meals every day. However, I am eager to trade that comfort for the discipline and the larger 'family' that the Armed Forces provide."
+  },
+  {
+    "id": 1,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which one of the following planets has the highest density?",
+    "options": [
+      "Mercury",
+      "Venus",
+      "Earth",
+      "Mars"
+    ],
+    "correct": 2,
+    "explanation": "Earth is the densest planet in the Solar System with an average density of approximately 5.51 grams per cubic centimeter.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 2,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The 'Goldilocks Zone' is a term often seen in the news in the context of:",
+    "options": [
+      "The limits of habitable zone above the surface of Earth",
+      "Regions inside the Earth where shale gas is available",
+      "Search for Earth-like planets in outer space",
+      "Search for precious metals in the asteroids"
+    ],
+    "correct": 2,
+    "explanation": "The Goldilocks Zone refers to the habitable zone around a star where the temperature is just right—not too hot and not too cold—for liquid water to exist on an Earth-like planet.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 3,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which of the following planets of our solar system has the least mass?",
+    "options": [
+      "Neptune",
+      "Jupiter",
+      "Mars",
+      "Mercury"
+    ],
+    "correct": 3,
+    "explanation": "Among the planets listed, Mercury is the smallest and has the least mass. Jupiter is the most massive.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 4,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "A 'Black Hole' is a celestial body that cannot be seen by telescopes because:",
+    "options": [
+      "Its surface temperature is very low",
+      "It does not reflect any light",
+      "Its gravity is so strong that it prevents even light from escaping",
+      "It is located at the very edge of the universe"
+    ],
+    "correct": 2,
+    "explanation": "A black hole is a region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape it.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 5,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which one of the following is the brightest star in the night sky?",
+    "options": [
+      "Sirius",
+      "Alpha Centauri",
+      "Proxima Centauri",
+      "Polaris"
+    ],
+    "correct": 0,
+    "explanation": "Sirius, also known as the Dog Star, is the brightest star in the Earth's night sky.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 6,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The time taken by the Sun's light to reach the Earth is approximately:",
+    "options": [
+      "8 seconds",
+      "8 minutes",
+      "20 seconds",
+      "20 minutes"
+    ],
+    "correct": 1,
+    "explanation": "Light from the Sun takes approximately 8 minutes and 20 seconds to reach the Earth.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 7,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The Milky Way galaxy was first observed by:",
+    "options": [
+      "Galileo",
+      "Maarten Schmidt",
+      "Marconi",
+      "Newton"
+    ],
+    "correct": 0,
+    "explanation": "Galileo Galilei first resolved the band of light of the Milky Way into individual stars with his telescope in 1610.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 8,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which planet is known as the 'Morning Star' as well as 'Evening Star'?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Jupiter"
+    ],
+    "correct": 1,
+    "explanation": "Venus is known as the Morning Star or Evening Star because it is the brightest object in the sky after the Sun and Moon, appearing shortly before sunrise or after sunset.",
+    "difficulty": "Easy",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 9,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The planet which has the maximum number of natural satellites (as per latest data) is:",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "correct": 1,
+    "explanation": "As of recent astronomical discoveries, Saturn has overtaken Jupiter as the planet with the highest number of moons/satellites.",
+    "difficulty": "Medium",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 10,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "What is the correct sequence of the following planets in terms of distance from the Sun?",
+    "options": [
+      "Earth - Venus - Mars - Jupiter",
+      "Venus - Earth - Mars - Jupiter",
+      "Venus - Earth - Jupiter - Mars",
+      "Earth - Venus - Jupiter - Mars"
+    ],
+    "correct": 1,
+    "explanation": "The order of planets starting from the Sun is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 11,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The outer layer of the Sun is known as:",
+    "options": [
+      "Chromosphere",
+      "Photosphere",
+      "Corona",
+      "Lithosphere"
+    ],
+    "correct": 2,
+    "explanation": "The Corona is the outermost layer of the Sun's atmosphere, extending millions of kilometers into outer space.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 12,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Halley's comet appears once in a period of:",
+    "options": [
+      "24 years",
+      "52 years",
+      "76 years",
+      "100 years"
+    ],
+    "correct": 2,
+    "explanation": "Halley's Comet is a periodic comet that returns to Earth's vicinity every 75–76 years.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 13,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which of the following is called a 'Red Planet'?",
+    "options": [
+      "Venus",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+    ],
+    "correct": 2,
+    "explanation": "Mars is known as the Red Planet due to the prevalence of iron oxide (rust) on its surface.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 14,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The Asteroid belt is found between which of the following?",
+    "options": [
+      "Mars and Jupiter",
+      "Earth and Mars",
+      "Jupiter and Saturn",
+      "Saturn and Uranus"
+    ],
+    "correct": 0,
+    "explanation": "The asteroid belt is a torus-shaped region in the Solar System, located roughly between the orbits of the planets Mars and Jupiter.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 15,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which planet rotates on its axis from East to West?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "correct": 1,
+    "explanation": "Most planets rotate prograde (West to East), but Venus and Uranus rotate retrograde (East to West).",
+    "difficulty": "Medium",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 16,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The unit of distance used in measuring distances between stars is:",
+    "options": [
+      "Coulomb",
+      "Light year",
+      "Nautical mile",
+      "Kilometer"
+    ],
+    "correct": 1,
+    "explanation": "A light year is the distance light travels in a vacuum in one Julian year (365.25 days).",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 17,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "The solar eclipse occurs when:",
+    "options": [
+      "The Sun comes between the Earth and the Moon",
+      "The Earth comes between the Sun and the Moon",
+      "The Moon comes between the Sun and the Earth",
+      "The Sun, Moon, and Earth are not in a straight line"
+    ],
+    "correct": 2,
+    "explanation": "A solar eclipse happens when the Moon passes between the Sun and Earth, casting a shadow on Earth that either fully or partially blocks the Sun's light in some areas.",
+    "difficulty": "Medium",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 18,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Which one of the following planets is called 'Earth's Twin'?",
+    "options": [
+      "Neptune",
+      "Venus",
+      "Mars",
+      "Saturn"
+    ],
+    "correct": 1,
+    "explanation": "Venus is often called Earth's twin because they are similar in size, mass, proximity to the Sun, and bulk composition.",
+    "difficulty": "Easy",
+    "exam": ["NDA"]
+  },
+  {
+    "id": 19,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "A 'Light Year' is a unit of:",
+    "options": [
+      "Time",
+      "Distance",
+      "Speed of light",
+      "Intensity of light"
+    ],
+    "correct": 1,
+    "explanation": "Despite the word 'year', a light-year is a measure of distance, not time.",
+    "difficulty": "Easy",
+    "exam": ["NDA", "CDS"]
+  },
+  {
+    "id": 21,
+    "subject": "Geography",
+    "topic": "Cosmology",
+    "question": "Lunar Eclipse occurs on:",
+    "options": [
+      "New Moon day",
+      "Full Moon day",
+      "Half Moon day",
+      "Any day"
+    ],
+    "correct": 1,
+    "explanation": "A lunar eclipse can only occur on the night of a full moon when the Sun, Earth, and Moon are aligned exactly or very closely.",
+    "difficulty": "Medium",
+    "exam": ["NDA"]
   }
   ]
