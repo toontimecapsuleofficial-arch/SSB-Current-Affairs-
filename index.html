@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSB Prep Hub — Defence & Geopolitics Preparation</title>
+  <meta name="description" content="Complete SSB preparation app with daily news, vocabulary, quiz system, streak tracker, and more." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="reading-progress-bar"></div>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-emblem">
+      <i data-lucide="shield" style="width:60px;height:60px;color:var(--accent-gold);stroke-width:1.4;"></i>
+    </div>
+    <div class="loading-text">SSB PREP HUB</div>
+    <div class="loading-sub">Preparing your daily brief...</div>
+    <div class="loading-bar-wrapper"><div class="loading-bar-fill"></div></div>
+  </div>
+
+  <!-- ═══════════════ TOP NAV ═══════════════ -->
+  <nav id="top-nav">
+    <a class="nav-brand" href="#" onclick="App.switchSection('home')">
+      <span class="nav-emblem">
+        <i data-lucide="shield" style="width:26px;height:26px;color:var(--accent-gold);stroke-width:1.8;"></i>
+      </span>
+      <div>
+        <span class="nav-brand-text">SSB Prep Hub</span>
+        <span class="nav-brand-sub">Serve with Honour</span>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <button class="nav-link active" data-section="home" onclick="App.switchSection('home')">
+        <i data-lucide="home" class="nav-icon"></i> Home
+      </button>
+      <button class="nav-link" data-section="news" onclick="App.switchSection('news')">
+        <i data-lucide="newspaper" class="nav-icon"></i> News
+      </button>
+      <button class="nav-link" data-section="vocab" onclick="App.switchSection('vocab')">
+        <i data-lucide="book-open" class="nav-icon"></i> Vocab
+      </button>
+      <button class="nav-link" data-section="quiz" onclick="App.switchSection('quiz')">
+        <i data-lucide="brain" class="nav-icon"></i> Quiz
+      </button>
+      <button class="nav-link" data-section="bookmarks" onclick="App.switchSection('bookmarks')">
+        <i data-lucide="bookmark" class="nav-icon"></i> Saved
+      </button>
+      <button class="nav-link" data-section="progress" onclick="App.switchSection('progress')">
+        <i data-lucide="bar-chart-2" class="nav-icon"></i> Progress
+      </button>
+    </div>
+
+    <div class="nav-controls">
+      <div id="streak-display" title="Your daily streak">
+        <i data-lucide="flame" class="streak-icon-svg"></i>
+        <span class="streak-count">0</span>
+        <span class="streak-label">Day Streak</span>
+      </div>
+      <button id="theme-toggle" class="icon-btn" title="Toggle theme">
+        <i data-lucide="sun" style="width:17px;height:17px;"></i>
+      </button>
+      <button class="icon-btn" id="admin-btn" title="Admin Panel">
+        <i data-lucide="settings" style="width:17px;height:17px;"></i>
+      </button>
+      <button class="icon-btn" id="mobile-menu-btn" onclick="toggleMobileMenu()" title="Menu">
+        <i data-lucide="menu" style="width:17px;height:17px;"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu">
+    <button class="mobile-nav-link" onclick="App.switchSection('home'); closeMobileMenu()">
+      <i data-lucide="home" class="mob-icon"></i> Home
+    </button>
+    <button class="mobile-nav-link" onclick="App.switchSection('news'); closeMobileMenu()">
+      <i data-lucide="newspaper" class="mob-icon"></i> News
+    </button>
+    <button class="mobile-nav-link" onclick="App.switchSection('vocab'); closeMobileMenu()">
+      <i data-lucide="book-open" class="mob-icon"></i> Vocabulary
+    </button>
+    <button class="mobile-nav-link" onclick="App.switchSection('quiz'); closeMobileMenu()">
+      <i data-lucide="brain" class="mob-icon"></i> Quiz
+    </button>
+    <button class="mobile-nav-link" onclick="App.switchSection('bookmarks'); closeMobileMenu()">
+      <i data-lucide="bookmark" class="mob-icon"></i> Saved
+    </button>
+    <button class="mobile-nav-link" onclick="App.switchSection('progress'); closeMobileMenu()">
+      <i data-lucide="bar-chart-2" class="mob-icon"></i> Progress
+    </button>
+    <hr style="border-color:var(--border);margin:0.5rem 0;">
+    <button class="mobile-nav-link" onclick="AdminManager.openAdminPanel(); closeMobileMenu()">
+      <i data-lucide="settings" class="mob-icon"></i> Admin Panel
+    </button>
+  </div>
+
+  <!-- ═══════════════ MAIN ═══════════════ -->
+  <main id="app-main">
+
+    <!-- HOME -->
+    <section id="section-home" class="section active">
+
+      <div class="hero-banner">
+        <div class="hero-emblem-wrap">
+          <i data-lucide="shield" style="width:72px;height:72px;color:var(--accent-gold);stroke-width:1.2;"></i>
+        </div>
+        <h1 class="hero-title">SSB <span>PREP HUB</span></h1>
+        <p class="hero-tagline">Your daily companion for Services Selection Board preparation</p>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="App.switchSection('quiz')">
+            <i data-lucide="brain" class="btn-icon"></i> Take Today's Quiz
+          </button>
+          <button class="btn-sm btn-outline" onclick="App.switchSection('news')">
+            <i data-lucide="newspaper" class="btn-icon"></i> Read News Brief
+          </button>
+          <button class="btn-sm btn-outline" onclick="MotivationalManager.show()">
+            <i data-lucide="star" class="btn-icon"></i> Get Motivated
+          </button>
+        </div>
+        <div class="hero-stat-bar">
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="hero-news-count">10</div>
+            <div class="hero-stat-label">News Articles</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="hero-vocab-count">15</div>
+            <div class="hero-stat-label">Vocab Words</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="hero-quiz-count">15</div>
+            <div class="hero-stat-label">SSB Questions</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Continue Reading -->
+      <div id="continue-reading-banner"></div>
+
+      <!-- Study Time -->
+      <div id="study-time-display" class="study-time-bar">
+        <i data-lucide="clock" style="width:15px;height:15px;"></i>
+        <span>Loading study time...</span>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="section-header" style="margin-bottom:1rem;">
+        <h2 class="section-title">
+          <i data-lucide="zap" class="title-icon"></i> Quick Actions
+        </h2>
+      </div>
+      <div class="quick-actions">
+        <div class="quick-card" onclick="App.switchSection('news')">
+          <span class="quick-icon"><i data-lucide="newspaper"></i></span>
+          <div class="quick-text">
+            <div class="quick-title">Daily News</div>
+            <div class="quick-desc">Defence & geopolitics briefs</div>
+          </div>
+          <i data-lucide="chevron-right" class="quick-arrow"></i>
+        </div>
+        <div class="quick-card" onclick="App.switchSection('vocab')">
+          <span class="quick-icon"><i data-lucide="book-open"></i></span>
+          <div class="quick-text">
+            <div class="quick-title">Vocabulary</div>
+            <div class="quick-desc">Key strategic terms</div>
+          </div>
+          <i data-lucide="chevron-right" class="quick-arrow"></i>
+        </div>
+        <div class="quick-card" onclick="App.switchSection('quiz')">
+          <span class="quick-icon"><i data-lucide="brain"></i></span>
+          <div class="quick-text">
+            <div class="quick-title">SSB Quiz</div>
+            <div class="quick-desc">Practice interview Q&A</div>
+          </div>
+          <i data-lucide="chevron-right" class="quick-arrow"></i>
+        </div>
+        <div class="quick-card" onclick="App.switchSection('progress')">
+          <span class="quick-icon"><i data-lucide="bar-chart-2"></i></span>
+          <div class="quick-text">
+            <div class="quick-title">My Progress</div>
+            <div class="quick-desc">Badges & stats</div>
+          </div>
+          <i data-lucide="chevron-right" class="quick-arrow"></i>
+        </div>
+        <div class="quick-card" onclick="QuizManager.showRandomQuestion()">
+          <span class="quick-icon"><i data-lucide="shuffle"></i></span>
+          <div class="quick-text">
+            <div class="quick-title">Random Q</div>
+            <div class="quick-desc">Surprise SSB question</div>
+          </div>
+          <i data-lucide="chevron-right" class="quick-arrow"></i>
+        </div>
+        <div class="quick-card" onclick="PopupFacts.showFact()">
+          <span class="quick-icon"><i data-lucide="lightbulb"></i></span>
+          <div class="quick-text">
+            <div class="quick-title">Defence Fact</div>
+            <div class="quick-desc">Did you know?</div>
+          </div>
+          <i data-lucide="chevron-right" class="quick-arrow"></i>
+        </div>
+      </div>
+
+      <!-- Random Question -->
+      <div style="margin-top:2rem;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">
+              <i data-lucide="shuffle" class="title-icon"></i> Random SSB Question
+            </h2>
+            <p class="section-subtitle">Click the button to get a random practice question</p>
+          </div>
+        </div>
+        <div class="random-question-section">
+          <button id="random-question-btn">
+            <i data-lucide="shuffle" class="btn-icon"></i> Generate Random Question
+          </button>
+          <div id="random-question-display"></div>
+        </div>
+      </div>
+
+      <!-- Latest News Preview -->
+      <div style="margin-top:2rem;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">
+              <i data-lucide="newspaper" class="title-icon"></i> Latest Briefs
+            </h2>
+            <p class="section-subtitle">Top defence & geopolitics updates</p>
+          </div>
+          <button class="btn-sm btn-outline" onclick="App.switchSection('news')">
+            View All <i data-lucide="arrow-right" class="btn-icon"></i>
+          </button>
+        </div>
+        <div id="home-news-preview" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;"></div>
+      </div>
+
+    </section>
+
+    <!-- NEWS -->
+    <section id="section-news" class="section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <i data-lucide="newspaper" class="title-icon"></i> News & Current Affairs
+          </h2>
+          <p class="section-subtitle">Stay updated on defence, geopolitics & security</p>
+        </div>
+        <div class="search-wrapper">
+          <i data-lucide="search" class="search-icon-svg"></i>
+          <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" />
+          <button id="search-clear" title="Clear">
+            <i data-lucide="x" style="width:13px;height:13px;"></i>
+          </button>
+        </div>
+      </div>
+      <div class="filter-bar" id="category-filters"></div>
+      <div id="result-count"></div>
+      <div id="news-container">
+        <div class="empty-state">
+          <i data-lucide="loader" class="empty-icon-svg spin"></i>
+          <h3>Loading articles...</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- VOCAB -->
+    <section id="section-vocab" class="section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <i data-lucide="book-open" class="title-icon"></i> Vocabulary Builder
+          </h2>
+          <p class="section-subtitle">Master key defence & foreign policy terminology</p>
+        </div>
+      </div>
+      <div class="filter-bar" id="vocab-filters"></div>
+      <div id="vocab-container">
+        <div class="empty-state">
+          <i data-lucide="loader" class="empty-icon-svg spin"></i>
+          <h3>Loading vocabulary...</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="section-quiz" class="section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <i data-lucide="brain" class="title-icon"></i> SSB Interview Quiz
+          </h2>
+          <p class="section-subtitle">Practice real SSB questions with hints and model answers</p>
+        </div>
+      </div>
+      <div style="margin-bottom:2.5rem;">
+        <div class="section-header" style="margin-bottom:1rem;">
+          <h3 style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--text-secondary);display:flex;align-items:center;gap:0.5rem;">
+            <i data-lucide="shuffle" style="width:17px;height:17px;"></i> Random Question Generator
+          </h3>
+        </div>
+        <div class="random-question-section">
+          <div id="random-question-display"></div>
+        </div>
+        <div style="text-align:center;margin-bottom:1rem;display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+          <button class="btn-primary" onclick="QuizManager.showRandomQuestion()">
+            <i data-lucide="shuffle" class="btn-icon"></i> Random Question
+          </button>
+          <button class="btn-sm btn-outline" onclick="QuizManager.startQuiz()" style="padding:0.65rem 1.25rem;">
+            <i data-lucide="list" class="btn-icon"></i> Start Full Quiz
+          </button>
+        </div>
+      </div>
+      <div id="quiz-container">
+        <div class="empty-state">
+          <i data-lucide="brain" class="empty-icon-svg"></i>
+          <h3>Ready to Practice?</h3>
+          <p>Click "Start Full Quiz" above to begin your SSB preparation.</p>
+          <br>
+          <button class="btn-primary" onclick="QuizManager.startQuiz()">
+            Start Quiz <i data-lucide="arrow-right" class="btn-icon"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKMARKS -->
+    <section id="section-bookmarks" class="section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <i data-lucide="bookmark" class="title-icon"></i> Saved Articles
+          </h2>
+          <p class="section-subtitle">Your bookmarked news and references</p>
+        </div>
+        <button class="btn-sm btn-outline" onclick="App.switchSection('news')">
+          <i data-lucide="plus" class="btn-icon"></i> Browse News
+        </button>
+      </div>
+      <div id="bookmarks-container"></div>
+    </section>
+
+    <!-- PROGRESS -->
+    <section id="section-progress" class="section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <i data-lucide="bar-chart-2" class="title-icon"></i> My Progress
+          </h2>
+          <p class="section-subtitle">Track your preparation journey</p>
+        </div>
+      </div>
+      <div id="study-time-display" class="study-time-bar" style="margin-bottom:1.5rem;">
+        <i data-lucide="clock" style="width:15px;height:15px;"></i>
+        <span>Calculating...</span>
+      </div>
+      <div id="progress-dashboard"></div>
+      <div style="margin-top:2rem;">
+        <div class="badges-header">
+          <h3>
+            <i data-lucide="award" style="width:20px;height:20px;color:var(--accent-gold);vertical-align:middle;margin-right:0.4rem;"></i>
+            Achievement Badges
+          </h3>
+          <span id="badge-count">0/13</span>
+        </div>
+        <div id="badges-container"></div>
+      </div>
+      <div style="margin-top:2rem;text-align:center;">
+        <button class="btn-primary" onclick="MotivationalManager.show()">
+          <i data-lucide="star" class="btn-icon"></i> Get Motivated
+        </button>
+        <p style="font-size:0.8rem;color:var(--text-muted);margin-top:0.75rem;font-family:var(--font-display);">
+          A daily dose of inspiration for your SSB journey
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Article Modal -->
+  <div id="article-modal">
+    <div id="article-modal-content"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/extras.js"></script>
+  <script src="js/streak.js"></script>
+  <script src="js/bookmark.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/share.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/suggestion.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    function toggleMobileMenu() {
+      document.getElementById('mobile-menu').classList.toggle('open');
+    }
+    function closeMobileMenu() {
+      document.getElementById('mobile-menu').classList.remove('open');
+    }
+    // Lucide renders all data-lucide attributes
+    document.addEventListener('DOMContentLoaded', () => lucide.createIcons());
+  </script>
+</body>
+</html>
