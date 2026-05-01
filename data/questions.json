@@ -118,5 +118,173 @@
     "type": "knowledge",
     "hints": ["US-led space cooperation framework", "Moon exploration principles", "India signed in 2023", "ISRO-NASA collaboration"],
     "sampleAnswer": "The Artemis Accords, led by the United States, establish principles for peaceful and transparent civil space exploration, particularly focusing on lunar exploration and beyond. Key principles include peaceful purposes, transparency, interoperability, emergency assistance, registration of space objects, and preservation of space heritage. India signed the Accords in June 2023, aligning with its growing space partnership with the US following the iCET (Initiative on Critical and Emerging Technology) framework. This also complements NASA-ISRO collaboration on joint Earth observation satellites and paves the way for Indian astronauts on future Artemis missions."
+  },
+  {
+    "id": 16,
+    "question": "Why do you want to join the Indian Armed Forces?",
+    "category": "Personal",
+    "type": "ssb_interview",
+    "hints": ["Mention service to nation", "Personal values alignment", "Leadership aspirations", "Inspiration from role models"],
+    "sampleAnswer": "The Armed Forces represent the highest form of national service. I want to join because I believe in protecting our nation's sovereignty, living a life of discipline and honour, and leading men and women in challenging situations. The military lifestyle aligns with my core values of integrity, courage, and selfless service."
+  },
+  {
+    "id": 17,
+    "question": "Tell me about a time you faced a significant setback. How did you handle it?",
+    "category": "Situational/OLQ",
+    "type": "ssb_interview",
+    "hints": ["Focus on resilience", "Logical problem solving", "Emotional stability", "Learning outcomes"],
+    "sampleAnswer": "During my final semester project, our primary data set was corrupted a week before the deadline. Instead of panicking, I organized an emergency meeting with my team, redistributed the workload to re-collect essential data, and we worked extra hours to finish on time. It taught me that composure and teamwork are vital when things go wrong."
+  },
+  {
+    "id": 18,
+    "question": "If you are not selected this time, what is your immediate plan of action?",
+    "category": "Self-Awareness",
+    "type": "ssb_interview",
+    "hints": ["Show determination", "Alternative career backup", "Constructive self-criticism", "Plan to return"],
+    "sampleAnswer": "I will introspect and identify the gaps in my performance during this attempt. Simultaneously, I will continue my preparations for the next entry while focusing on my backup plan in the corporate sector to ensure I remain productive. My goal remains the uniform, and I will be back with better preparation."
+  },
+  {
+    "id": 19,
+    "question": "How do you contribute to your household or help your parents in daily chores?",
+    "category": "Social Adjustment",
+    "type": "ssb_interview",
+    "hints": ["Responsibility", "Involvement in family", "Time management", "Proactive nature"],
+    "sampleAnswer": "I believe in sharing the domestic load. I handle the grocery shopping and utility bill payments for the house. On weekends, I help my mother with cleaning and cooking. It keeps me grounded and helps me understand the value of managing a household effectively."
+  },
+  {
+    "id": 20,
+    "question": "What are your two greatest strengths and two weaknesses that you are currently working on?",
+    "category": "Personal/Self-Analysis",
+    "type": "ssb_interview",
+    "hints": ["Honesty", "Authenticity", "Actionable improvement for weaknesses", "Evidence-based strengths"],
+    "sampleAnswer": "My strengths are my ability to remain calm under pressure and my physical endurance. As for weaknesses, I sometimes struggle with public speaking and can be over-critical of my own work. I have started participating in debates to improve my confidence and am learning to balance perfectionism with efficiency."
+  },
+  {
+    "id": 21,
+    "question": "What is your opinion on India's current relations with its immediate neighbors?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Balanced perspective", "Knowledge of geopolitics", "Strategic thinking", "No extreme bias"],
+    "sampleAnswer": "India follows a 'Neighborhood First' policy, focusing on regional stability and economic cooperation. While we face challenges regarding border security and cross-border issues with certain neighbors, our strengthening ties with nations like Bhutan and Vietnam through 'Act East' show our commitment to a peaceful Indo-Pacific. A strong military serves as a deterrent to maintain this peace."
+  },
+  {
+    "id": 22,
+    "question": "What is the most courageous thing you have ever done in your life?",
+    "category": "OLQ/Courage",
+    "type": "ssb_interview",
+    "hints": ["Moral vs Physical courage", "Personal risk", "Conviction", "Outcome oriented"],
+    "sampleAnswer": "Once during a trekking expedition, a teammate twisted their ankle badly. Despite the fading light and dropping temperature, I volunteered to go back to the base camp alone to get help while the others stayed back. It was a test of my nerves and physical stamina, but I managed to bring help in time."
+  },
+  {
+    "id": 23,
+    "question": "Tell me about your best friend and three qualities you dislike in them.",
+    "category": "Personal/Social",
+    "type": "ssb_interview",
+    "hints": ["Honesty", "Critical analysis", "Depth of relationship", "Objectivity"],
+    "sampleAnswer": "My best friend is Rahul. While he is incredibly loyal, I dislike that he is sometimes unpunctual, can be a bit disorganized with his studies, and occasionally avoids taking the lead in group situations. However, we complement each other well."
+  },
+  {
+    "id": 24,
+    "question": "How do you manage your monthly pocket money or earnings?",
+    "category": "Sense of Responsibility",
+    "type": "ssb_interview",
+    "hints": ["Financial planning", "Prioritizing needs over wants", "Savings mindset", "Accountability"],
+    "sampleAnswer": "I follow a simple 50-30-20 rule. I spend 50% on essentials like travel and food, 30% on personal interests or books, and I make sure to save 20% for emergencies or future needs. This discipline helps me stay independent."
+  },
+  {
+    "id": 25,
+    "question": "If your subordinates refuse to follow an order in a field area, what will you do?",
+    "category": "Leadership/Military Interest",
+    "type": "ssb_interview",
+    "hints": ["Command and control", "Empathy", "Leading by example", "Discipline"],
+    "sampleAnswer": "First, I would try to understand the reason behind the hesitation—whether it's fear, lack of clarity, or a technical issue. I would lead by example to build their confidence. However, if it's a matter of indiscipline, I would be firm and use my command authority to ensure the mission is not compromised."
+  },
+  {
+    "id": 26,
+    "question": "Which teacher did you like the least in school and why?",
+    "category": "Social Adjustment",
+    "type": "ssb_interview",
+    "hints": ["Maturity", "Lack of grudges", "Identifying teaching styles", "Balanced view"],
+    "sampleAnswer": "I found my Chemistry teacher's method difficult because it was purely theoretical. While I respected his knowledge, the lack of practical application made it hard for me to connect with the subject. Later, I realized I had to put in extra effort on my own to bridge that gap."
+  },
+  {
+    "id": 27,
+    "question": "What are the latest defense acquisitions of the Indian Air Force/Army/Navy?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Current Affairs", "Technical knowledge", "Interest in the service", "Modernization"],
+    "sampleAnswer": "Recently, the induction of the S-400 Triumf missile system, the Rafale fighter jets, and the commissioning of INS Vikrant are significant milestones. These acquisitions enhance our strategic depth and 'Atmanirbhar' capabilities in defense."
+  },
+  {
+    "id": 28,
+    "question": "Tell me about your daily routine from waking up to going to bed.",
+    "category": "Discipline/Organization",
+    "type": "ssb_interview",
+    "hints": ["Productivity", "Physical fitness", "Time for hobbies", "Consistency"],
+    "sampleAnswer": "I wake up at 5:30 AM for a 5km run. After breakfast, I attend college/work until 4:00 PM. Evenings are for sports or gym, followed by reading news. I dedicate two hours to my studies and conclude my day by 10:30 PM."
+  },
+  {
+    "id": 29,
+    "question": "Why didn't you try for the Armed Forces right after 12th through NDA?",
+    "category": "Personal/Logic",
+    "type": "ssb_interview",
+    "hints": ["Honesty", "Evolution of interest", "Academic focus", "Determination"],
+    "sampleAnswer": "At that time, I was focused on securing a technical degree to have a strong professional foundation. However, my desire to serve remained constant, which is why I am appearing through the CDS/NCC entry now, better prepared and more mature."
+  },
+  {
+    "id": 30,
+    "question": "How do you handle criticism from someone younger than you?",
+    "category": "Social Effectiveness",
+    "type": "ssb_interview",
+    "hints": ["Open-mindedness", "Learning attitude", "Lack of ego", "Objective evaluation"],
+    "sampleAnswer": "I believe feedback is valuable regardless of the source's age. If the criticism is constructive and helps me improve, I acknowledge it and work on it. It’s the quality of the point that matters, not the age of the person making it."
+  },
+  {
+    "id": 31,
+    "question": "If you are given 10 lakh rupees today, how will you spend it?",
+    "category": "Decision Making",
+    "type": "ssb_interview",
+    "hints": ["Practicality", "Investment mindset", "Social responsibility", "Family welfare"],
+    "sampleAnswer": "I would invest 60% in long-term financial instruments for my parents' future security. I'd use 20% for my further specialized training or education, and the remaining 20% I would use to clear any family liabilities or contribute to a local charity I support."
+  },
+  {
+    "id": 32,
+    "question": "What is the difference between a Leader and a Boss?",
+    "category": "Leadership",
+    "type": "ssb_interview",
+    "hints": ["Inspiration vs Command", "Cooperation vs Control", "Development vs Utilization"],
+    "sampleAnswer": "A boss drives his subordinates through authority and fear, focusing on the task. A leader inspires his team through personal example and empathy, focusing on both the mission and the growth of his men."
+  },
+  {
+    "id": 33,
+    "question": "Describe a situation where you had to lead a group of people who were older than you.",
+    "category": "OLQ/Influence",
+    "type": "ssb_interview",
+    "hints": ["Respectful command", "Competence", "Communication", "Inclusivity"],
+    "sampleAnswer": "During a community cleanliness drive, I was made the coordinator for a group that included several senior residents. I ensured their opinions were heard and assigned tasks based on their comfort levels while maintaining the project's timeline. My respect for them earned their cooperation."
+  },
+  {
+    "id": 34,
+    "question": "What do you know about the Agnipath Scheme and its impact?",
+    "category": "General Awareness",
+    "type": "ssb_interview",
+    "hints": ["Current policy", "Pros and Cons", "Future of the force", "National security"],
+    "sampleAnswer": "The Agnipath scheme aims to create a youthful profile for the forces while providing a skilled workforce to the nation. While it brings challenges in terms of training duration, it offers a wider base of disciplined citizens and optimizes the defense budget for modernization."
+  },
+  {
+    "id": 35,
+    "question": "What is your biggest fear and how do you overcome it?",
+    "category": "Personal/Emotional Stability",
+    "type": "ssb_interview",
+    "hints": ["Vulnerability", "Self-improvement", "Logical approach to fear", "Courage"],
+    "sampleAnswer": "My biggest fear was the fear of failure, which used to make me hesitant to take risks. I overcame this by shifting my focus from the 'result' to the 'process.' I started taking small challenges, like public speaking, which helped me realize that even if I fail, the learning is worth it."
+  },
+  {
+    "id": 36,
+    "question": "If you witness a senior officer committing a minor ethical breach, what would you do?",
+    "category": "Integrity/Ethics",
+    "type": "ssb_interview",
+    "hints": ["Moral courage", "Loyalty to the organization", "Tact", "Corrective action"],
+    "sampleAnswer": "Integrity is non-negotiable. If it's a minor oversight, I would find a polite and private way to bring it to their notice, assuming it was unintentional. If it's a deliberate breach of code, I would follow the official reporting procedure, as the organization's honor comes above any individual."
   }
-]
+    ]
