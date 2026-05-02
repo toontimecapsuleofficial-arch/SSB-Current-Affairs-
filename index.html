@@ -1,413 +1,389 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SSB Prep Hub — Defence & Geopolitics Preparation</title>
-  <meta name="description" content="Complete SSB preparation app with daily news, vocabulary, quiz system, streak tracker, and more." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSB Prep — Vocab · News · Quiz</title>
+  <meta name="description" content="Modern SSB preparation app — vocabulary, defence news, topic-wise MCQ quiz for NDA/CDS/AFCAT."/>
+  <link rel="stylesheet" href="css/app.css"/>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
-  <!-- Reading Progress Bar -->
-  <div id="reading-progress-bar"></div>
+<!-- ╔══════════════════════════════════════════════════════════
+     LOADING OVERLAY
+     ══════════════════════════════════════════════════════════╗ -->
+<div id="app-loader" style="
+  position:fixed;inset:0;
+  background:var(--bg);
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  z-index:9999;transition:opacity .4s ease;
+">
+  <div style="width:56px;height:56px;background:linear-gradient(135deg,#4f8fff,#8b5cf6);
+              border-radius:16px;display:flex;align-items:center;justify-content:center;
+              margin-bottom:1.5rem;animation:pulse 1.5s ease-in-out infinite;">
+    <i data-lucide="shield" style="width:28px;height:28px;color:#fff;stroke-width:1.8;"></i>
+  </div>
+  <div style="font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800;
+              letter-spacing:.06em;color:#e8eaf6;margin-bottom:.4rem;">
+    SSB PREP
+  </div>
+  <div style="font-size:.8rem;color:#4a5478;letter-spacing:.12em;">LOADING YOUR DASHBOARD…</div>
+  <div style="margin-top:2rem;width:180px;height:3px;background:rgba(99,120,180,.15);
+              border-radius:3px;overflow:hidden;">
+    <div style="height:100%;background:linear-gradient(90deg,#4f8fff,#8b5cf6);
+                border-radius:3px;animation:loadBar 1.4s ease-in-out infinite;"></div>
+  </div>
+</div>
 
-  <!-- Loading Screen -->
-  <div id="loading-screen">
-    <div class="loading-emblem">
-      <i data-lucide="shield" style="width:60px;height:60px;color:var(--accent-gold);stroke-width:1.4;"></i>
+<style>
+@keyframes pulse   { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.08);opacity:.85} }
+@keyframes loadBar { 0%{width:0;margin-left:0} 50%{width:60%} 100%{width:0;margin-left:100%} }
+</style>
+
+<!-- ╔══════════════════════════════════════════════════════════
+     TOP NAV
+     ══════════════════════════════════════════════════════════╗ -->
+<nav id="app-nav">
+  <div class="nav-logo">
+    <div class="nav-logo-icon">
+      <i data-lucide="shield" style="width:18px;height:18px;color:#fff;stroke-width:2;"></i>
     </div>
-    <div class="loading-text">SSB PREP HUB</div>
-    <div class="loading-sub">Preparing your daily brief...</div>
-    <div class="loading-bar-wrapper"><div class="loading-bar-fill"></div></div>
+    SSB <span>Prep</span>
   </div>
 
-  <!-- ═══════════════ TOP NAV ═══════════════ -->
-  <nav id="top-nav">
-    <a class="nav-brand" href="#" onclick="App.switchSection('home')">
-      <span class="nav-emblem">
-        <i data-lucide="shield" style="width:26px;height:26px;color:var(--accent-gold);stroke-width:1.8;"></i>
-      </span>
-      <div>
-        <span class="nav-brand-text">SSB Prep Hub</span>
-        <span class="nav-brand-sub">Serve with Honour</span>
-      </div>
-    </a>
-
-    <div class="nav-links">
-      <button class="nav-link active" data-section="home" onclick="App.switchSection('home')">
-        <i data-lucide="home" class="nav-icon"></i> Home
-      </button>
-      <button class="nav-link" data-section="news" onclick="App.switchSection('news')">
-        <i data-lucide="newspaper" class="nav-icon"></i> News
-      </button>
-      <button class="nav-link" data-section="vocab" onclick="App.switchSection('vocab')">
-        <i data-lucide="book-open" class="nav-icon"></i> Vocab
-      </button>
-      <button class="nav-link" data-section="quiz" onclick="App.switchSection('quiz')">
-        <i data-lucide="brain" class="nav-icon"></i> Quiz
-      </button>
-      <button class="nav-link" data-section="bookmarks" onclick="App.switchSection('bookmarks')">
-        <i data-lucide="bookmark" class="nav-icon"></i> Saved
-      </button>
-      <button class="nav-link" data-section="progress" onclick="App.switchSection('progress')">
-        <i data-lucide="bar-chart-2" class="nav-icon"></i> Progress
-      </button>
-    </div>
-
-    <div class="nav-controls">
-      <div id="streak-display" title="Your daily streak">
-        <i data-lucide="flame" class="streak-icon-svg"></i>
-        <span class="streak-count">0</span>
-        <span class="streak-label">Day Streak</span>
-      </div>
-      <button id="theme-toggle" class="icon-btn" title="Toggle theme">
-        <i data-lucide="sun" style="width:17px;height:17px;"></i>
-      </button>
-      <button class="icon-btn" id="admin-btn" title="Admin Panel">
-        <i data-lucide="settings" style="width:17px;height:17px;"></i>
-      </button>
-      <button class="icon-btn" id="mobile-menu-btn" onclick="toggleMobileMenu()" title="Menu">
-        <i data-lucide="menu" style="width:17px;height:17px;"></i>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Mobile Menu -->
-  <div id="mobile-menu">
-    <button class="mobile-nav-link" onclick="App.switchSection('home'); closeMobileMenu()">
-      <i data-lucide="home" class="mob-icon"></i> Home
+  <div class="nav-tabs">
+    <button class="nav-tab active" data-section="home">
+      <i data-lucide="home"></i> Home
     </button>
-    <button class="mobile-nav-link" onclick="App.switchSection('news'); closeMobileMenu()">
-      <i data-lucide="newspaper" class="mob-icon"></i> News
+    <button class="nav-tab" data-section="vocab">
+      <i data-lucide="book-open"></i> Vocabulary
     </button>
-    <button class="mobile-nav-link" onclick="App.switchSection('vocab'); closeMobileMenu()">
-      <i data-lucide="book-open" class="mob-icon"></i> Vocabulary
+    <button class="nav-tab" data-section="news">
+      <i data-lucide="newspaper"></i> News
     </button>
-    <button class="mobile-nav-link" onclick="App.switchSection('quiz'); closeMobileMenu()">
-      <i data-lucide="brain" class="mob-icon"></i> Quiz
-    </button>
-    <button class="mobile-nav-link" onclick="App.switchSection('bookmarks'); closeMobileMenu()">
-      <i data-lucide="bookmark" class="mob-icon"></i> Saved
-    </button>
-    <button class="mobile-nav-link" onclick="App.switchSection('progress'); closeMobileMenu()">
-      <i data-lucide="bar-chart-2" class="mob-icon"></i> Progress
-    </button>
-    <hr style="border-color:var(--border);margin:0.5rem 0;">
-    <button class="mobile-nav-link" onclick="AdminManager.openAdminPanel(); closeMobileMenu()">
-      <i data-lucide="settings" class="mob-icon"></i> Admin Panel
+    <button class="nav-tab" data-section="quiz">
+      <i data-lucide="brain"></i> Quiz
     </button>
   </div>
 
-  <!-- ═══════════════ MAIN ═══════════════ -->
-  <main id="app-main">
+  <div class="nav-right">
+    <button class="nav-icon-btn" id="hamburger" title="Menu">
+      <i data-lucide="menu"></i>
+    </button>
+  </div>
+</nav>
 
-    <!-- HOME -->
-    <section id="section-home" class="section active">
+<!-- Mobile Nav -->
+<div id="mobile-nav">
+  <button class="mobile-nav-item" data-section="home">
+    <i data-lucide="home"></i> Home
+  </button>
+  <button class="mobile-nav-item" data-section="vocab">
+    <i data-lucide="book-open"></i> Vocabulary
+  </button>
+  <button class="mobile-nav-item" data-section="news">
+    <i data-lucide="newspaper"></i> News
+  </button>
+  <button class="mobile-nav-item" data-section="quiz">
+    <i data-lucide="brain"></i> Quiz
+  </button>
+</div>
 
-      <div class="hero-banner">
-        <div class="hero-emblem-wrap">
-          <i data-lucide="shield" style="width:72px;height:72px;color:var(--accent-gold);stroke-width:1.2;"></i>
+<!-- ╔══════════════════════════════════════════════════════════
+     APP ROOT — ALL VIEWS
+     ══════════════════════════════════════════════════════════╗ -->
+<div id="app-root">
+
+  <!-- ════════════════════════════════════════════════════════
+       HOME VIEW
+       ════════════════════════════════════════════════════════ -->
+  <div class="view active" id="view-home">
+    <div class="page-wrap">
+
+      <!-- Hero -->
+      <div style="text-align:center;padding:2.5rem 1rem 2rem;">
+        <div style="display:inline-flex;align-items:center;gap:.5rem;
+                    background:rgba(79,143,255,.1);border:1px solid rgba(79,143,255,.25);
+                    border-radius:999px;padding:.35rem 1rem;
+                    font-size:.78rem;font-weight:600;color:var(--neon-blue);
+                    margin-bottom:1.25rem;letter-spacing:.04em;">
+          <i data-lucide="zap" style="width:13px;height:13px;"></i>
+          India's #1 SSB Prep Platform
         </div>
-        <h1 class="hero-title">SSB <span>PREP HUB</span></h1>
-        <p class="hero-tagline">Your daily companion for Services Selection Board preparation</p>
-        <div class="hero-actions">
-          <button class="btn-primary" onclick="App.switchSection('quiz')">
-            <i data-lucide="brain" class="btn-icon"></i> Take Today's Quiz
+        <h1 style="font-family:var(--font-display);font-size:clamp(2rem,5vw,3rem);
+                   font-weight:800;line-height:1.15;margin-bottom:1rem;
+                   background:linear-gradient(135deg,#e8eaf6 0%,#4f8fff 50%,#8b5cf6 100%);
+                   -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+                   background-clip:text;">
+          Master SSB, NDA & CDS<br/>One App. Zero Compromise.
+        </h1>
+        <p style="color:var(--txt-2);font-size:1rem;max-width:500px;
+                  margin:0 auto 2rem;line-height:1.7;">
+          Daily defence news · Strategic vocabulary · Topic-wise MCQ quiz
+          for NDA, CDS, AFCAT & CAPF — all in one dark, distraction-free interface.
+        </p>
+        <div style="display:flex;gap:.875rem;justify-content:center;flex-wrap:wrap;">
+          <button class="btn btn-primary" data-section="quiz" onclick="AppNav.go('quiz')">
+            <i data-lucide="brain"></i> Start Quiz
           </button>
-          <button class="btn-sm btn-outline" onclick="App.switchSection('news')">
-            <i data-lucide="newspaper" class="btn-icon"></i> Read News Brief
+          <button class="btn btn-secondary" onclick="AppNav.go('vocab')">
+            <i data-lucide="book-open"></i> Vocabulary
           </button>
-          <button class="btn-sm btn-outline" onclick="MotivationalManager.show()">
-            <i data-lucide="star" class="btn-icon"></i> Get Motivated
-          </button>
-        </div>
-        <div class="hero-stat-bar">
-          <div class="hero-stat">
-            <div class="hero-stat-value" id="hero-news-count">10</div>
-            <div class="hero-stat-label">News Articles</div>
-          </div>
-          <div class="hero-stat">
-            <div class="hero-stat-value" id="hero-vocab-count">15</div>
-            <div class="hero-stat-label">Vocab Words</div>
-          </div>
-          <div class="hero-stat">
-            <div class="hero-stat-value" id="hero-quiz-count">15</div>
-            <div class="hero-stat-label">SSB Questions</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Continue Reading -->
-      <div id="continue-reading-banner"></div>
-
-      <!-- Study Time -->
-      <div id="study-time-display" class="study-time-bar">
-        <i data-lucide="clock" style="width:15px;height:15px;"></i>
-        <span>Loading study time...</span>
-      </div>
-
-      <!-- Quick Actions -->
-      <div class="section-header" style="margin-bottom:1rem;">
-        <h2 class="section-title">
-          <i data-lucide="zap" class="title-icon"></i> Quick Actions
-        </h2>
-      </div>
-      <div class="quick-actions">
-        <div class="quick-card" onclick="App.switchSection('news')">
-          <span class="quick-icon"><i data-lucide="newspaper"></i></span>
-          <div class="quick-text">
-            <div class="quick-title">Daily News</div>
-            <div class="quick-desc">Defence & geopolitics briefs</div>
-          </div>
-          <i data-lucide="chevron-right" class="quick-arrow"></i>
-        </div>
-        <div class="quick-card" onclick="App.switchSection('vocab')">
-          <span class="quick-icon"><i data-lucide="book-open"></i></span>
-          <div class="quick-text">
-            <div class="quick-title">Vocabulary</div>
-            <div class="quick-desc">Key strategic terms</div>
-          </div>
-          <i data-lucide="chevron-right" class="quick-arrow"></i>
-        </div>
-        <div class="quick-card" onclick="App.switchSection('quiz')">
-          <span class="quick-icon"><i data-lucide="brain"></i></span>
-          <div class="quick-text">
-            <div class="quick-title">SSB Quiz</div>
-            <div class="quick-desc">Practice interview Q&A</div>
-          </div>
-          <i data-lucide="chevron-right" class="quick-arrow"></i>
-        </div>
-        <div class="quick-card" onclick="App.switchSection('progress')">
-          <span class="quick-icon"><i data-lucide="bar-chart-2"></i></span>
-          <div class="quick-text">
-            <div class="quick-title">My Progress</div>
-            <div class="quick-desc">Badges & stats</div>
-          </div>
-          <i data-lucide="chevron-right" class="quick-arrow"></i>
-        </div>
-        <div class="quick-card" onclick="QuizManager.showRandomQuestion()">
-          <span class="quick-icon"><i data-lucide="shuffle"></i></span>
-          <div class="quick-text">
-            <div class="quick-title">Random Q</div>
-            <div class="quick-desc">Surprise SSB question</div>
-          </div>
-          <i data-lucide="chevron-right" class="quick-arrow"></i>
-        </div>
-        <div class="quick-card" onclick="PopupFacts.showFact()">
-          <span class="quick-icon"><i data-lucide="lightbulb"></i></span>
-          <div class="quick-text">
-            <div class="quick-title">Defence Fact</div>
-            <div class="quick-desc">Did you know?</div>
-          </div>
-          <i data-lucide="chevron-right" class="quick-arrow"></i>
-        </div>
-      </div>
-
-      <!-- Random Question -->
-      <div style="margin-top:2rem;">
-        <div class="section-header">
-          <div>
-            <h2 class="section-title">
-              <i data-lucide="shuffle" class="title-icon"></i> Random SSB Question
-            </h2>
-            <p class="section-subtitle">Click the button to get a random practice question</p>
-          </div>
-        </div>
-        <div class="random-question-section">
-          <button id="random-question-btn">
-            <i data-lucide="shuffle" class="btn-icon"></i> Generate Random Question
-          </button>
-          <div id="random-question-display"></div>
-        </div>
-      </div>
-
-      <!-- Latest News Preview -->
-      <div style="margin-top:2rem;">
-        <div class="section-header">
-          <div>
-            <h2 class="section-title">
-              <i data-lucide="newspaper" class="title-icon"></i> Latest Briefs
-            </h2>
-            <p class="section-subtitle">Top defence & geopolitics updates</p>
-          </div>
-          <button class="btn-sm btn-outline" onclick="App.switchSection('news')">
-            View All <i data-lucide="arrow-right" class="btn-icon"></i>
-          </button>
-        </div>
-        <div id="home-news-preview" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;"></div>
-      </div>
-
-    </section>
-
-    <!-- NEWS -->
-    <section id="section-news" class="section">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">
-            <i data-lucide="newspaper" class="title-icon"></i> News & Current Affairs
-          </h2>
-          <p class="section-subtitle">Stay updated on defence, geopolitics & security</p>
-        </div>
-        <div class="search-wrapper">
-          <i data-lucide="search" class="search-icon-svg"></i>
-          <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" />
-          <button id="search-clear" title="Clear">
-            <i data-lucide="x" style="width:13px;height:13px;"></i>
-          </button>
-        </div>
-      </div>
-      <div class="filter-bar" id="category-filters"></div>
-      <div id="result-count"></div>
-      <div id="news-container">
-        <div class="empty-state">
-          <i data-lucide="loader" class="empty-icon-svg spin"></i>
-          <h3>Loading articles...</h3>
-        </div>
-      </div>
-    </section>
-
-    <!-- VOCAB -->
-    <section id="section-vocab" class="section">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">
-            <i data-lucide="book-open" class="title-icon"></i> Vocabulary Builder
-          </h2>
-          <p class="section-subtitle">Master key defence & foreign policy terminology</p>
-        </div>
-      </div>
-      <div class="filter-bar" id="vocab-filters"></div>
-      <div id="vocab-container">
-        <div class="empty-state">
-          <i data-lucide="loader" class="empty-icon-svg spin"></i>
-          <h3>Loading vocabulary...</h3>
-        </div>
-      </div>
-    </section>
-
-    <!-- QUIZ -->
-    <section id="section-quiz" class="section">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">
-            <i data-lucide="brain" class="title-icon"></i> NDA / CDS / AFCAT Quiz
-          </h2>
-          <p class="section-subtitle">Topic-wise MCQ practice — History, Geography, Polity, Science, Maths, English & more</p>
-        </div>
-      </div>
-
-      <!-- Subject & Exam Filters -->
-      <div class="quiz-filter-wrap">
-        <div id="quiz-filter-bar"></div>
-        <div class="quiz-start-bar">
-          <button class="btn-primary" onclick="QuizManager.startQuiz()">
-            <i data-lucide="play" class="btn-icon"></i> Start Quiz
-          </button>
-          <button class="btn-sm btn-outline" onclick="QuizManager.showRandomQuestion()" style="padding:0.6rem 1.25rem;">
-            <i data-lucide="shuffle" class="btn-icon"></i> Random Q
+          <button class="btn btn-secondary" onclick="AppNav.go('news')">
+            <i data-lucide="newspaper"></i> News Brief
           </button>
         </div>
       </div>
 
-      <!-- Random Question Display -->
-      <div id="random-question-display" style="margin-bottom:1.5rem;"></div>
+      <!-- Stats Row -->
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2.5rem;">
+        <div class="glass-card" style="padding:1.25rem;text-align:center;">
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:800;
+                      color:var(--neon-blue)" id="home-news-count">—</div>
+          <div style="font-size:.78rem;color:var(--txt-muted);margin-top:.25rem;">News Articles</div>
+        </div>
+        <div class="glass-card" style="padding:1.25rem;text-align:center;">
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:800;
+                      color:var(--neon-purple)" id="home-vocab-count">—</div>
+          <div style="font-size:.78rem;color:var(--txt-muted);margin-top:.25rem;">Vocab Words</div>
+        </div>
+        <div class="glass-card" style="padding:1.25rem;text-align:center;">
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:800;
+                      color:var(--neon-green)" id="home-subject-count">—</div>
+          <div style="font-size:.78rem;color:var(--txt-muted);margin-top:.25rem;">Subjects</div>
+        </div>
+        <div class="glass-card" style="padding:1.25rem;text-align:center;">
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:800;
+                      color:var(--neon-amber)" id="home-quiz-count">—</div>
+          <div style="font-size:.78rem;color:var(--txt-muted);margin-top:.25rem;">Questions</div>
+        </div>
+      </div>
 
-      <!-- Main Quiz Container -->
-      <div id="quiz-container">
-        <div class="empty-state">
-          <i data-lucide="brain" class="empty-icon-svg"></i>
-          <h3>Select Filters &amp; Start</h3>
-          <p>Choose a subject and exam above, then click Start Quiz.</p>
-        </div>
-      </div>
-    </section>
+      <!-- Quick Access Cards -->
+      <h2 style="font-family:var(--font-display);font-size:1.3rem;font-weight:800;
+                 margin-bottom:1rem;">Quick Access</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;">
 
-    <!-- BOOKMARKS -->
-    <section id="section-bookmarks" class="section">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">
-            <i data-lucide="bookmark" class="title-icon"></i> Saved Articles
-          </h2>
-          <p class="section-subtitle">Your bookmarked news and references</p>
+        <div class="glass-card" style="padding:1.5rem;cursor:pointer;"
+             onclick="AppNav.go('vocab')">
+          <div style="width:48px;height:48px;border-radius:14px;
+                      background:rgba(139,92,246,.12);
+                      display:flex;align-items:center;justify-content:center;margin-bottom:1rem;">
+            <i data-lucide="book-open" style="width:24px;height:24px;color:var(--neon-purple);"></i>
+          </div>
+          <div style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;
+                      margin-bottom:.35rem;">Vocabulary Builder</div>
+          <div style="font-size:.83rem;color:var(--txt-muted);line-height:1.5;">
+            English · Hindi meanings, synonyms, antonyms, mnemonics &amp; PYQ usage
+          </div>
         </div>
-        <button class="btn-sm btn-outline" onclick="App.switchSection('news')">
-          <i data-lucide="plus" class="btn-icon"></i> Browse News
-        </button>
-      </div>
-      <div id="bookmarks-container"></div>
-    </section>
 
-    <!-- PROGRESS -->
-    <section id="section-progress" class="section">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">
-            <i data-lucide="bar-chart-2" class="title-icon"></i> My Progress
-          </h2>
-          <p class="section-subtitle">Track your preparation journey</p>
+        <div class="glass-card" style="padding:1.5rem;cursor:pointer;"
+             onclick="AppNav.go('news')">
+          <div style="width:48px;height:48px;border-radius:14px;
+                      background:rgba(79,143,255,.12);
+                      display:flex;align-items:center;justify-content:center;margin-bottom:1rem;">
+            <i data-lucide="newspaper" style="width:24px;height:24px;color:var(--neon-blue);"></i>
+          </div>
+          <div style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;
+                      margin-bottom:.35rem;">Defence News</div>
+          <div style="font-size:.83rem;color:var(--txt-muted);line-height:1.5;">
+            Daily briefs on defence, geopolitics, military tech &amp; strategic affairs
+          </div>
         </div>
-      </div>
-      <div id="study-time-display" class="study-time-bar" style="margin-bottom:1.5rem;">
-        <i data-lucide="clock" style="width:15px;height:15px;"></i>
-        <span>Calculating...</span>
-      </div>
-      <div id="progress-dashboard"></div>
-      <div style="margin-top:2rem;">
-        <div class="badges-header">
-          <h3>
-            <i data-lucide="award" style="width:20px;height:20px;color:var(--accent-gold);vertical-align:middle;margin-right:0.4rem;"></i>
-            Achievement Badges
-          </h3>
-          <span id="badge-count">0/13</span>
+
+        <div class="glass-card" style="padding:1.5rem;cursor:pointer;"
+             onclick="AppNav.go('quiz')">
+          <div style="width:48px;height:48px;border-radius:14px;
+                      background:rgba(16,185,129,.12);
+                      display:flex;align-items:center;justify-content:center;margin-bottom:1rem;">
+            <i data-lucide="brain" style="width:24px;height:24px;color:var(--neon-green);"></i>
+          </div>
+          <div style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;
+                      margin-bottom:.35rem;">Topic-wise MCQ Quiz</div>
+          <div style="font-size:.83rem;color:var(--txt-muted);line-height:1.5;">
+            History · Geography · Polity · Maths · English · GK — NDA / CDS / AFCAT
+          </div>
         </div>
-        <div id="badges-container"></div>
+
       </div>
-      <div style="margin-top:2rem;text-align:center;">
-        <button class="btn-primary" onclick="MotivationalManager.show()">
-          <i data-lucide="star" class="btn-icon"></i> Get Motivated
-        </button>
-        <p style="font-size:0.8rem;color:var(--text-muted);margin-top:0.75rem;font-family:var(--font-display);">
-          A daily dose of inspiration for your SSB journey
+
+      <!-- Footer note -->
+      <div style="text-align:center;margin-top:3rem;padding-top:2rem;
+                  border-top:1px solid var(--border);">
+        <p style="font-size:.8rem;color:var(--txt-muted);">
+          Built for <strong style="color:var(--txt-2)">SSB · NDA · CDS · AFCAT · CAPF</strong> aspirants
+          &nbsp;·&nbsp; No backend · 100% offline-ready
         </p>
       </div>
-    </section>
 
-  </main>
-
-  <!-- Article Modal -->
-  <div id="article-modal">
-    <div id="article-modal-content"></div>
+    </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="js/extras.js"></script>
-  <script src="js/streak.js"></script>
-  <script src="js/bookmark.js"></script>
-  <script src="js/search.js"></script>
-  <script src="js/quiz.js"></script>
-  <script src="js/progress.js"></script>
-  <script src="js/theme.js"></script>
-  <script src="js/share.js"></script>
-  <script src="js/admin.js"></script>
-  <script src="js/suggestion.js"></script>
-  <script src="js/main.js"></script>
+  <!-- ════════════════════════════════════════════════════════
+       VOCABULARY — LIST VIEW
+       ════════════════════════════════════════════════════════ -->
+  <div class="view" id="view-vocab">
+    <div class="page-wrap">
+      <div class="page-header">
+        <h2 class="page-title">
+          <i data-lucide="book-open" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:.4rem;"></i>
+          Vocabulary Builder
+        </h2>
+        <p class="page-sub">Click any word for full details — meanings, mnemonics &amp; previous year usage</p>
+      </div>
 
-  <script>
-    function toggleMobileMenu() {
-      document.getElementById('mobile-menu').classList.toggle('open');
-    }
-    function closeMobileMenu() {
-      document.getElementById('mobile-menu').classList.remove('open');
-    }
-    // Lucide renders all data-lucide attributes
-    document.addEventListener('DOMContentLoaded', () => lucide.createIcons());
-  </script>
+      <!-- Search -->
+      <div class="search-bar">
+        <i data-lucide="search"></i>
+        <input type="text" id="vocab-search" placeholder="Search words, meanings or synonyms…" autocomplete="off"/>
+      </div>
+
+      <!-- Category filter -->
+      <div class="filter-bar" id="vocab-cat-filter"></div>
+
+      <!-- Difficulty filter -->
+      <div class="filter-bar" id="vocab-diff-filter"></div>
+
+      <!-- Grid -->
+      <div id="vocab-grid">
+        <div class="empty-state" style="grid-column:1/-1">
+          <i data-lucide="loader" style="width:40px;height:40px;color:var(--txt-muted);animation:spin 1s linear infinite;"></i>
+          <h3>Loading vocabulary…</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VOCABULARY — DETAIL VIEW -->
+  <div class="view-slide" id="view-vocab-detail">
+    <div class="page-wrap">
+      <div id="vocab-detail-wrap"></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════
+       NEWS — LIST VIEW
+       ════════════════════════════════════════════════════════ -->
+  <div class="view" id="view-news">
+    <div class="page-wrap">
+      <div class="page-header">
+        <h2 class="page-title">
+          <i data-lucide="newspaper" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:.4rem;"></i>
+          Defence &amp; Geopolitics News
+        </h2>
+        <p class="page-sub">Click any card to read the full brief</p>
+      </div>
+
+      <!-- Search -->
+      <div class="search-bar">
+        <i data-lucide="search"></i>
+        <input type="text" id="news-search" placeholder="Search headlines, categories or tags…" autocomplete="off"/>
+      </div>
+
+      <!-- Category filter -->
+      <div class="filter-bar" id="news-cat-filter"></div>
+
+      <!-- Grid -->
+      <div id="news-grid">
+        <div class="empty-state" style="grid-column:1/-1">
+          <i data-lucide="loader" style="width:40px;height:40px;color:var(--txt-muted);animation:spin 1s linear infinite;"></i>
+          <h3>Loading news…</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWS — DETAIL VIEW -->
+  <div class="view-slide" id="view-news-detail">
+    <div class="page-wrap">
+      <div id="news-detail-wrap"></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════
+       QUIZ — SUBJECTS VIEW
+       ════════════════════════════════════════════════════════ -->
+  <div class="view" id="view-quiz">
+    <div class="page-wrap">
+      <div class="page-header">
+        <h2 class="page-title">
+          <i data-lucide="brain" style="width:22px;height:22px;color:var(--accent);vertical-align:middle;margin-right:.4rem;"></i>
+          MCQ Quiz — Select Subject
+        </h2>
+        <p class="page-sub">NDA · CDS · AFCAT · CAPF — topic-wise practice</p>
+      </div>
+      <div id="subjects-grid">
+        <div class="empty-state" style="grid-column:1/-1">
+          <i data-lucide="loader" style="width:40px;height:40px;color:var(--txt-muted);animation:spin 1s linear infinite;"></i>
+          <h3>Loading subjects…</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUIZ — TOPICS VIEW -->
+  <div class="view-slide" id="view-quiz-topics">
+    <div class="page-wrap">
+      <div id="topics-wrap"></div>
+    </div>
+  </div>
+
+  <!-- QUIZ — QUIZ LIST VIEW -->
+  <div class="view-slide" id="view-quiz-list">
+    <div class="page-wrap">
+      <div id="quiz-list-wrap"></div>
+    </div>
+  </div>
+
+  <!-- QUIZ — INTERFACE VIEW (full-bleed, no page-wrap) -->
+  <div class="view-slide" id="view-quiz-interface">
+    <!-- Populated by QuizEngine.renderQuizInterface() -->
+  </div>
+
+  <!-- QUIZ — RESULT VIEW -->
+  <div class="view-slide" id="view-quiz-result">
+    <div class="page-wrap">
+      <div id="result-wrap"></div>
+    </div>
+  </div>
+
+  <!-- QUIZ — SOLUTIONS VIEW -->
+  <div class="view-slide" id="view-quiz-solutions">
+    <div class="page-wrap">
+      <div id="solutions-wrap"></div>
+    </div>
+  </div>
+
+</div><!-- /#app-root -->
+
+<!-- ── Spinner keyframe (inline so it works before CSS fully parses) -->
+<style>
+  @keyframes spin { from { transform:rotate(0deg) } to { transform:rotate(360deg) } }
+  .diff-badge-easy   { background:rgba(16,185,129,.15); color:#10b981; font-size:.7rem; font-weight:700; padding:.18rem .55rem; border-radius:4px; }
+  .diff-badge-medium { background:rgba(245,158,11,.15); color:#f59e0b; font-size:.7rem; font-weight:700; padding:.18rem .55rem; border-radius:4px; }
+  .diff-badge-hard   { background:rgba(239,68,68,.15);  color:#ef4444; font-size:.7rem; font-weight:700; padding:.18rem .55rem; border-radius:4px; }
+</style>
+
+<!-- ── SCRIPTS (order matters) ─────────────────────────────── -->
+<script src="js/main.js"></script>
+<script src="js/vocab.js"></script>
+<script src="js/news.js"></script>
+<script src="js/quiz.js"></script>
+
+<script>
+  // Final Lucide render after all scripts load
+  document.addEventListener('DOMContentLoaded', () => {
+    if (typeof lucide !== 'undefined') lucide.createIcons();
+  });
+</script>
+
 </body>
 </html>
 
